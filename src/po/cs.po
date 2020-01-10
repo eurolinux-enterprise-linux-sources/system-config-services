@@ -1,0 +1,317 @@
+# Czech translation of system-config-services
+# Copyright (C) 2002-2005, 2008 system-config-services' COPYRIGHT HOLDER
+#
+# Miloslav Trmač <mitr@volny.cz>, 2002 - 2005, 2008.
+# Nikola Štohanzl <niko@srnet.cz>, 2006.
+# Milan Kerslager <kerslage@linux.cz>, 2007, 2009, 2010.
+# Adam Pribyl <pribyl@lowlevel.cz>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-24 12:19+0100\n"
+"PO-Revision-Date: 2010-02-22 18:14+0100\n"
+"Last-Translator: Milan Kerslager <milan@kerslager.cz>\n"
+"Language-Team: Czech <Czech <cs-users@lists.fedoraproject.org>>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 0.2\n"
+
+#: src/gui.py:125
+msgid "Name"
+msgstr "Jméno"
+
+#: src/gui.py:128
+msgid "Remarks"
+msgstr "Poznámky"
+
+#: src/gui.py:196 src/gui.py:213
+msgid "This service is being refreshed right now."
+msgstr "Služba se právě obnovuje."
+
+#: src/gui.py:197
+msgid "Getting information about this service failed."
+msgstr "Získání informací o této službě selhalo."
+
+#: src/gui.py:198
+msgid "This service is enabled."
+msgstr "Služba je povolena."
+
+#: src/gui.py:199
+msgid "This service is disabled."
+msgstr "Služba je zakázána."
+
+#: src/gui.py:201
+#, python-format
+msgid "This service is enabled in runlevels: %(runlevels)s"
+msgstr "Služba je povolena v runlevelech: %(runlevels)s"
+
+#: src/gui.py:214
+msgid "The status of this service is unknown."
+msgstr "Stav služby je neznámý"
+
+#: src/gui.py:215
+msgid "This service is stopped."
+msgstr "Služba je zastavena."
+
+#: src/gui.py:216
+msgid "This service is running."
+msgstr "Služba je spuštěna."
+
+#: src/gui.py:217
+msgid "This service is dead."
+msgstr "Služba je mrtvá (měla by běžet, ale proces neexistuje)."
+
+#: src/gui.py:298
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service is started once, usually when the system "
+"is booted, runs in the background and wakes up when needed."
+msgstr ""
+"Služba <b>%(servicename)s</b> se spouští jen jednou, obvykle při startu "
+"systému, a potom běží na pozadí a reaguje v případě potřeby."
+
+#: src/gui.py:317
+msgid "This service is updated currently."
+msgstr "Tato služba je právě aktualizována."
+
+#: src/gui.py:344
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service will be started on demand by the xinetd "
+"service and ends when it has nothing more to do."
+msgstr ""
+"Služba <b>%(servicename)s</b> bude v případě potřeby spuštěna pomocí "
+"síťového superserveru xinetd a ukončí se po vykonání požadavku."
+
+#: src/gui.py:356
+msgid ""
+"This service is enabled, but the <b>xinetd</b> package is not installed. "
+"This service does not work without it."
+msgstr ""
+"Služba je povolena, ale balíček superserveru <b>xinetd</b> není "
+"nainstalován. Bez něj nebude tato služba fungovat."
+
+#: src/gui.py:365
+msgid ""
+"This service is enabled, but the <b>xinetd</b> service is not running. This "
+"service does not work without it."
+msgstr ""
+"Služba je povolena, ale superserver <b>xinetd</b> není spuštěn (též jako "
+"služba). Bez něj nebude tato služba fungovat."
+
+#: src/gui.py:782 src/system-config-services.glade.h:6
+#, no-c-format, python-format
+msgid "Enable the <b>%(service)s</b> service in these runlevels:"
+msgstr "Povolit službu <b>%(service)s</b> v těchto runlevelech:"
+
+#: src/gui.py:920
+msgid ""
+"The help viewer could not be found. To be able to view help, the 'yelp' "
+"package needs to be installed."
+msgstr ""
+"Nemohu nalézt prohlížeč nápovědy. Abyste byli schopni prohlížet nápovědu, "
+"musí být nainstalován balíček 'yelp'."
+
+#: src/system-config-services.glade.h:1
+msgid "Copyright © 2002-2009 Red Hat, Inc. and contributors"
+msgstr "Copyright © 2002-2009 Red Hat, Inc. a spolupracovníci"
+
+#: src/system-config-services.glade.h:2
+msgid "Customize Runlevels"
+msgstr "Upravit runlevely"
+
+#: src/system-config-services.glade.h:3
+msgid "Customize the runlevels in which a service is enabled."
+msgstr "Upravit runlevely v nichž je služba povolena."
+
+#: src/system-config-services.glade.h:4
+msgid "Description"
+msgstr "Popis"
+
+#: src/system-config-services.glade.h:7
+msgid "No service selected."
+msgstr "Není vybrána žádná služba."
+
+#: src/system-config-services.glade.h:8
+msgid "Runlevel 2"
+msgstr "Runlevel 2"
+
+#: src/system-config-services.glade.h:9
+msgid "Runlevel 3"
+msgstr "Runlevel 3"
+
+#: src/system-config-services.glade.h:10
+msgid "Runlevel 4"
+msgstr "Runlevel 4"
+
+#: src/system-config-services.glade.h:11
+msgid "Runlevel 5"
+msgstr "Runlevel 5"
+
+#: src/system-config-services.glade.h:12
+msgid "Runlevel _2"
+msgstr "Runlevel_2"
+
+#: src/system-config-services.glade.h:13
+msgid "Runlevel _3"
+msgstr "Runlevel _3"
+
+#: src/system-config-services.glade.h:14
+msgid "Runlevel _4"
+msgstr "Runlevel _4"
+
+#: src/system-config-services.glade.h:15
+msgid "Runlevel _5"
+msgstr "Runlevel _5"
+
+#: src/system-config-services.glade.h:16
+msgid "S_top"
+msgstr "_Zastavit"
+
+#: src/system-config-services.glade.h:17
+msgid "Ser_vice"
+msgstr "_Služba"
+
+#: src/system-config-services.glade.h:18
+msgid "Service Configuration"
+msgstr "Nastavení služeb"
+
+#: src/system-config-services.glade.h:19
+msgid "Service Information"
+msgstr "Informace o službách"
+
+#: src/system-config-services.glade.h:21
+#, no-c-format
+msgid "Status of service %s:"
+msgstr "Stav služby %s:"
+
+#: src/system-config-services.glade.h:22
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA 02111-1307  USA"
+msgstr ""
+"Tento program je svobodný software; můžete jej libovolně kopírovat "
+"aupravovat, pokud zachováte podmínky GNU General Public Licence, jak "
+"jsoupublikovány na stránkách nadace Svobodného Softwrare (FSF); buď ve verzi "
+"2nebo (podle vašeho zvážení) jakákoli pozdější. \n"
+"\n"
+"Tento program je distribuován v dobré víře, že bude užitečný, ale "
+"bezVEŠKERÝCH ZÁRUK; Pro detaily si přečtete licenci GNU General "
+"PublicLicense. \n"
+"\n"
+"S tímto programem byste měli obdržet kopii GNU General Public Licence. "
+"Pokudne, podívete se na http://www.gnu.org/licenses/."
+
+#: src/system-config-services.glade.h:28
+msgid ""
+"This service is started once, usually when the system is booted, runs in the "
+"background and wakes up when needed."
+msgstr ""
+"Služba je spuštěna jen jednou, obvykle při startu systému, poté běží na "
+"pozadí a vzbudí se pouze pokud je potřeba."
+
+#: src/system-config-services.glade.h:29
+msgid ""
+"This service will be started on demand by the xinetd service and ends when "
+"it has nothing more to do."
+msgstr ""
+"Služba bude spuštěna na vyžádání pomocí superserveru xinetd a po dokončení "
+"úkolu se ukončí."
+
+#: src/system-config-services.glade.h:30
+msgid "_About"
+msgstr "_O ..."
+
+#: src/system-config-services.glade.h:31
+msgid "_Contents"
+msgstr "_Obsah"
+
+#: src/system-config-services.glade.h:32
+msgid "_Customize"
+msgstr "_Upravit"
+
+#: src/system-config-services.glade.h:33
+msgid "_Disable"
+msgstr "_Zakázat"
+
+#: src/system-config-services.glade.h:34
+msgid "_Enable"
+msgstr "_Povolit"
+
+#: src/system-config-services.glade.h:35
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: src/system-config-services.glade.h:36
+msgid "_Program"
+msgstr "_Program"
+
+#: src/system-config-services.glade.h:37
+msgid "_Restart"
+msgstr "_Restartovat"
+
+#: src/system-config-services.glade.h:38
+msgid "_Start"
+msgstr "_Spustit"
+
+#: src/system-config-services.glade.h:39
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: src/system-config-services.glade.h:41
+msgid "translator-credits"
+msgstr ""
+"Miloslav Trmač <mitr@volny.cz>, 2002 - 2005, 2008.\n"
+"Nikola Štohanzl <niko@srnet.cz>, 2006.\n"
+"Milan Keršláger <kerslage@linux.cz>, 2007, 2009, 2010.\n"
+"Adam Přibyl <pribyl@lowlevel.cz>, 2008."
+
+#: system-config-services.desktop.in.h:1
+msgid "Configure which services will be running when the system starts"
+msgstr "Nastavení služeb, které budou při startu systému spuštěny"
+
+#: system-config-services.desktop.in.h:2
+msgid "Service Management"
+msgstr "Správa služeb"
+
+#: system-config-services.desktop.in.h:3
+msgid "Services"
+msgstr "Služby"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:1
+#: config/org.fedoraproject.config.services.policy.1.in.h:1
+msgid "Get information about system services"
+msgstr "Získat informace o systémových službách"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:2
+#: config/org.fedoraproject.config.services.policy.1.in.h:2
+msgid "Getting information about system services requires authentication"
+msgstr "Získání informací o systémových službách vyžaduje autentizaci"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:3
+#: config/org.fedoraproject.config.services.policy.1.in.h:3
+msgid "Manage system services"
+msgstr "Spravovat systémové služby"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:4
+#: config/org.fedoraproject.config.services.policy.1.in.h:4
+msgid "Managing system services requires authentication"
+msgstr "Spravování systémových služeb vyžaduje autentizaci"

@@ -1,0 +1,3 @@
+@CONSOLE_PERMISSIONS_DIRECTIVE@
+PROGRAM=/usr/sbin/system-config-services
+SESSION=true

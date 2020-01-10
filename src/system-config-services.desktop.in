@@ -1,0 +1,12 @@
+[Desktop Entry]
+_Name=Services
+_GenericName=Service Management
+_Comment=Configure which services will be running when the system starts
+StartupNotify=true
+Icon=system-config-services.png
+Exec=/usr/bin/system-config-services
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Categories=System;Settings;
+X-Desktop-File-Install-Version=0.2

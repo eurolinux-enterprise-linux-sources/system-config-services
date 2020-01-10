@@ -1,0 +1,293 @@
+# Norwegian bokmål translation of system-config-services.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@broadpark.no>, 2004-2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services 0.99.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-24 12:19+0100\n"
+"PO-Revision-Date: 2010-03-15 20:20+0100\n"
+"Last-Translator: Kjartan Maraas <kmaraas@broadpark.no>\n"
+"Language-Team: Norwegian <i18n-nb@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/gui.py:125
+msgid "Name"
+msgstr "Navn"
+
+#: src/gui.py:128
+msgid "Remarks"
+msgstr "Kommentarer"
+
+#: src/gui.py:196 src/gui.py:213
+msgid "This service is being refreshed right now."
+msgstr "Tjenesten oppdateres akkurat nå."
+
+#: src/gui.py:197
+msgid "Getting information about this service failed."
+msgstr "Klarte ikke å hente informasjon om denne tjenesten."
+
+#: src/gui.py:198
+msgid "This service is enabled."
+msgstr "Denne tjenesten er slått på."
+
+#: src/gui.py:199
+msgid "This service is disabled."
+msgstr "Denne tjenesten er slått av."
+
+#: src/gui.py:201
+#, python-format
+msgid "This service is enabled in runlevels: %(runlevels)s"
+msgstr "Denne tjenesten er slått på i kjøringsnivå: %(runlevels)s"
+
+#: src/gui.py:214
+msgid "The status of this service is unknown."
+msgstr "Status for denne tjenesten er ukjent."
+
+#: src/gui.py:215
+msgid "This service is stopped."
+msgstr "Tjenesten er stoppet."
+
+#: src/gui.py:216
+msgid "This service is running."
+msgstr "Tjenesten kjører."
+
+#: src/gui.py:217
+msgid "This service is dead."
+msgstr "Tjenesten er død."
+
+#: src/gui.py:298
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service is started once, usually when the system "
+"is booted, runs in the background and wakes up when needed."
+msgstr ""
+"Tjenesten <b>%(servicename)s</b> startes en gang, vanligvis når systemet "
+"starter opp, kjører i bakgrunnen og våkner opp ved behov."
+
+#: src/gui.py:317
+msgid "This service is updated currently."
+msgstr "Denne tjenesten oppdateres for tiden."
+
+#: src/gui.py:344
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service will be started on demand by the xinetd "
+"service and ends when it has nothing more to do."
+msgstr "Tjenesten <b>%(servicename)s</b> vil bli startet etter behov av xinetd-tjenesten og avsluttes når den ikke har mer å gjøre."
+
+#: src/gui.py:356
+msgid ""
+"This service is enabled, but the <b>xinetd</b> package is not installed. "
+"This service does not work without it."
+msgstr "Denne tjenesten er slått på, men pakken <b>xinetd</b> er ikke installert. Denne tjenesten fungerer ikke uten den."
+
+#: src/gui.py:365
+msgid ""
+"This service is enabled, but the <b>xinetd</b> service is not running. This "
+"service does not work without it."
+msgstr "Denne tjenesten er slått på, men <b>xinetd</b>-tjenesten kjører ikke. Denne tjenesten fungerer ikke uten den."
+
+#: src/gui.py:782 src/system-config-services.glade.h:6
+#, no-c-format, python-format
+msgid "Enable the <b>%(service)s</b> service in these runlevels:"
+msgstr "Slå på <b>%(service)s</b>-tjenesten i følgende kjøringsnivå:"
+
+#: src/gui.py:920
+msgid ""
+"The help viewer could not be found. To be able to view help, the 'yelp' "
+"package needs to be installed."
+msgstr ""
+"Program for visning av hjelp ble ikke funnet. Du må installere pakken «yelp» "
+"for å kunne vise hjelp."
+
+#: src/system-config-services.glade.h:1
+msgid "Copyright © 2002-2009 Red Hat, Inc. and contributors"
+msgstr "Opphavsrett © 2002-2009 Red Hat, Inc. og bidragsytere"
+
+#: src/system-config-services.glade.h:2
+msgid "Customize Runlevels"
+msgstr "Tilpass kjøringsnivåer"
+
+#: src/system-config-services.glade.h:3
+msgid "Customize the runlevels in which a service is enabled."
+msgstr "Tilpass kjøringsnivå hvor en tjeneste er aktivert."
+
+#: src/system-config-services.glade.h:4
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: src/system-config-services.glade.h:7
+msgid "No service selected."
+msgstr "Ingen tjeneste valgt."
+
+#: src/system-config-services.glade.h:8
+msgid "Runlevel 2"
+msgstr "Kjøringsnivå 2"
+
+#: src/system-config-services.glade.h:9
+msgid "Runlevel 3"
+msgstr "Kjøringsnivå 3"
+
+#: src/system-config-services.glade.h:10
+msgid "Runlevel 4"
+msgstr "Kjøringsnivå 4"
+
+#: src/system-config-services.glade.h:11
+msgid "Runlevel 5"
+msgstr "Kjøringsnivå 5"
+
+#: src/system-config-services.glade.h:12
+msgid "Runlevel _2"
+msgstr "Kjøringsnivå _2"
+
+#: src/system-config-services.glade.h:13
+msgid "Runlevel _3"
+msgstr "Kjøringsnivå _3"
+
+#: src/system-config-services.glade.h:14
+msgid "Runlevel _4"
+msgstr "Kjøringsnivå _4"
+
+#: src/system-config-services.glade.h:15
+msgid "Runlevel _5"
+msgstr "Kjøringsnivå _5"
+
+#: src/system-config-services.glade.h:16
+msgid "S_top"
+msgstr "S_topp"
+
+#: src/system-config-services.glade.h:17
+msgid "Ser_vice"
+msgstr "T_jeneste"
+
+#: src/system-config-services.glade.h:18
+msgid "Service Configuration"
+msgstr "Tjenestekonfigurasjon"
+
+#: src/system-config-services.glade.h:19
+msgid "Service Information"
+msgstr "Informasjon om tjeneste"
+
+#: src/system-config-services.glade.h:21
+#, no-c-format
+msgid "Status of service %s:"
+msgstr "Status for tjeneste %s:"
+
+#: src/system-config-services.glade.h:22
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA 02111-1307  USA"
+msgstr ""
+"Dette programmet er fri programvare. Du kan redistribuere og/eller endre programmet under betingelsene gitt i GNU General Public License som utgitt av Free Software Foundation; enten versjon 2 av lisensen, eller (hvis du ønsker det) enhver senere versjon.\n"
+"\n"
+"Programmet distribueres i håp om at programmet er nyttig, men uten NOEN GARANTI, ikke engang implisitt garanti om at det er SALGBART eller PASSER ET BESTEMT FORMÅL. Se GNU General Public License for detaljer.\n"
+"\n"
+"Du skal ha mottatt en kopi av GNU General Public License sammen med dette programmet. Hvis dette ikke er tilfelle, kan du skrive til Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
+
+#: src/system-config-services.glade.h:28
+msgid ""
+"This service is started once, usually when the system is booted, runs in the "
+"background and wakes up when needed."
+msgstr ""
+"Denne tjenesten startes en gang og vanligvis når systemet startes. Den "
+"kjører i bakgrunnen og våkner ved behov."
+
+#: src/system-config-services.glade.h:29
+msgid ""
+"This service will be started on demand by the xinetd service and ends when "
+"it has nothing more to do."
+msgstr ""
+"Denne tjenesten vil bli startet ved behov av xinetd-tjenesten og avslutter "
+"når den ikke har mer å gjøre."
+
+#: src/system-config-services.glade.h:30
+msgid "_About"
+msgstr "_Om"
+
+#: src/system-config-services.glade.h:31
+msgid "_Contents"
+msgstr "_Innhold"
+
+#: src/system-config-services.glade.h:32
+msgid "_Customize"
+msgstr "T_ilpass"
+
+#: src/system-config-services.glade.h:33
+msgid "_Disable"
+msgstr "Slå _av"
+
+#: src/system-config-services.glade.h:34
+msgid "_Enable"
+msgstr "S_lå på"
+
+#: src/system-config-services.glade.h:35
+msgid "_Help"
+msgstr "_Hjelp"
+
+#: src/system-config-services.glade.h:36
+msgid "_Program"
+msgstr "_Program"
+
+#: src/system-config-services.glade.h:37
+msgid "_Restart"
+msgstr "Sta_rt på nytt"
+
+#: src/system-config-services.glade.h:38
+msgid "_Start"
+msgstr "_Start"
+
+#: src/system-config-services.glade.h:39
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: src/system-config-services.glade.h:41
+msgid "translator-credits"
+msgstr "Kjartan Maraas <kmaraas@broadpark.no>"
+
+#: system-config-services.desktop.in.h:1
+msgid "Configure which services will be running when the system starts"
+msgstr "Bestem hvilke tjenester som skal kjøre når systemet starter"
+
+#: system-config-services.desktop.in.h:2
+msgid "Service Management"
+msgstr "Håndtering av tjenester"
+
+#: system-config-services.desktop.in.h:3
+msgid "Services"
+msgstr "Tjenester"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:1
+#: config/org.fedoraproject.config.services.policy.1.in.h:1
+msgid "Get information about system services"
+msgstr "Hent informasjon om systemtjenestene"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:2
+#: config/org.fedoraproject.config.services.policy.1.in.h:2
+msgid "Getting information about system services requires authentication"
+msgstr "Du må autentisere deg for å hente informasjon om systemtjenestene"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:3
+#: config/org.fedoraproject.config.services.policy.1.in.h:3
+msgid "Manage system services"
+msgstr "Håndter systemtjenester"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:4
+#: config/org.fedoraproject.config.services.policy.1.in.h:4
+msgid "Managing system services requires authentication"
+msgstr "Du må autentisere deg for å håndtere systemtjenester"

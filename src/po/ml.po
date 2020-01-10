@@ -1,0 +1,313 @@
+# translation of system-config-services.master.ml.po to
+# translation of system-config-services.tip.ml.po to
+# translation of ml.po to
+# This file is distributed under the same license as the system-config-services package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ani Peter <apeter@redhat.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ml\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-24 12:19+0100\n"
+"PO-Revision-Date: 2010-04-14 10:57+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: src/gui.py:125
+msgid "Name"
+msgstr "പേരു്"
+
+#: src/gui.py:128
+msgid "Remarks"
+msgstr "നിരൂപണങ്ങള്‍"
+
+#: src/gui.py:196 src/gui.py:213
+msgid "This service is being refreshed right now."
+msgstr "ഈ സര്‍വീസ് നിലവില്‍ പരിഷ്കരിക്കപ്പെടുന്നു."
+
+#: src/gui.py:197
+msgid "Getting information about this service failed."
+msgstr "ഈ സര്‍വീസ് സംബന്ധിച്ചുള്ള വിവരം ലഭിക്കുവാന്‍ സാധ്യമായില്ല."
+
+#: src/gui.py:198
+msgid "This service is enabled."
+msgstr "ഈ സര്‍വീസ് പ്രവര്‍ത്തന സജ്ജമാണു്."
+
+#: src/gui.py:199
+msgid "This service is disabled."
+msgstr "ഈ സര്‍വീസ് പ്രവര്‍ത്തന രഹിതമാണു്."
+
+#: src/gui.py:201
+#, python-format
+msgid "This service is enabled in runlevels: %(runlevels)s"
+msgstr "ഈ സര്‍വീസുകള്‍ റണ്‍ലവലുകളില്‍ പ്രവര്‍ത്തന സജ്ജമാണു്: %(runlevels)s"
+
+#: src/gui.py:214
+msgid "The status of this service is unknown."
+msgstr "ഈ സര്‍വീസിന്റെ അവസ്ഥ അപരിചിതമാണു്."
+
+#: src/gui.py:215
+msgid "This service is stopped."
+msgstr "ഈ സര്‍വീസ് നിര്‍ത്തിയിരിക്കുന്നു."
+
+#: src/gui.py:216
+msgid "This service is running."
+msgstr "ഈ സര്‍വീസ് പ്രവര്‍ത്തനത്തിലാണു്."
+
+#: src/gui.py:217
+msgid "This service is dead."
+msgstr "ഈ സര്‍വീസ് നിര്‍ജ്ജീവമാണു്."
+
+#: src/gui.py:298
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service is started once, usually when the system "
+"is booted, runs in the background and wakes up when needed."
+msgstr ""
+"സിസ്റ്റം ബൂട്ട് ചെയ്യുമ്പോള്‍ <b>%(servicename)s</b> സര്‍വീസ് ഒരിക്കല്‍ ആരംഭിക്കുന്നു. ശേഷം "
+"പശ്ചാത്തലത്തില്‍ പ്രവര്‍ത്തിക്കുന്നു, ആവശ്യമുള്ളപ്പോള്‍ പ്രത്യക്ഷത്തില്‍ വരുന്നു."
+
+#: src/gui.py:317
+msgid "This service is updated currently."
+msgstr "ഈ സര്‍വീസ് നിലവില്‍ പരിഷ്കരിക്കപ്പെടുന്നു."
+
+#: src/gui.py:344
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service will be started on demand by the xinetd "
+"service and ends when it has nothing more to do."
+msgstr ""
+"xinetd സര്‍വീസിന്റെ ആവശ്യപ്രകാരം <b>%(servicename)s</b> ആരംഭിക്കുന്നു. എല്ലാ പ്രക്രിയകളും "
+"അവസാനിക്കുമ്പോള്‍ ഈ സര്‍വീസ് അവസാനിക്കുന്നു."
+
+#: src/gui.py:356
+msgid ""
+"This service is enabled, but the <b>xinetd</b> package is not installed. "
+"This service does not work without it."
+msgstr ""
+"ഈ സര്‍വീസ് സജ്ജമാണു് എന്നാല്‍, <b>xinetd</b> പാക്കേജ് ഇന്‍സ്റ്റോള്‍ അല്ലാത്തതിനാല്‍ ഈ സര്‍വീസ് "
+"പ്രവര്‍ത്തിക്കുന്നതല്ല."
+
+#: src/gui.py:365
+msgid ""
+"This service is enabled, but the <b>xinetd</b> service is not running. This "
+"service does not work without it."
+msgstr "ഈ സര്‍വീസ് സജ്ജമാണു് എന്നാല്‍, <b>xinetd</b> പാക്കേജ് കൂടാതെ ഈ സര്‍വീസ് പ്രവര്‍ത്തിക്കുന്നതല്ല."
+
+#: src/gui.py:782 src/system-config-services.glade.h:6
+#, no-c-format, python-format
+msgid "Enable the <b>%(service)s</b> service in these runlevels:"
+msgstr "ഈ റണ്‍ലവലുകളില്‍ <b>%(service)s</b> സര്‍വീസ് സജ്ജമാക്കുക:"
+
+#: src/gui.py:920
+msgid ""
+"The help viewer could not be found. To be able to view help, the 'yelp' "
+"package needs to be installed."
+msgstr ""
+"സഹായം ലഭ്യമാക്കുന്ന സംവിധാനം ഇവിടെ ലഭ്യമല്ല. ഇതിനായി, 'yelp' പാക്കേജുകള്‍ ഇന്‍സ്റ്റോള്‍ "
+"ചെയ്യേണ്ടതുണ്ടു്."
+
+#: src/system-config-services.glade.h:1
+msgid "Copyright © 2002-2009 Red Hat, Inc. and contributors"
+msgstr "പകര്‍പ്പവകാശം © 2002-2009 Red Hat, Inc.-ഉം മറ്റു് സംഭാവനക്കാരും"
+
+#: src/system-config-services.glade.h:2
+msgid "Customize Runlevels"
+msgstr "റണ്‍ലവലുകള്‍ യഥേഷ്ടമാക്കുക"
+
+#: src/system-config-services.glade.h:3
+msgid "Customize the runlevels in which a service is enabled."
+msgstr "സര്‍വീസ് സജ്ജമാക്കിയിട്ടുള്ള റണ്‍ലവലുകള്‍ യഥേഷ്ടമാക്കുക."
+
+#: src/system-config-services.glade.h:4
+msgid "Description"
+msgstr "വിവരണം"
+
+#: src/system-config-services.glade.h:7
+msgid "No service selected."
+msgstr "സര്‍വീസ് തെരഞ്ഞെടുത്തിട്ടില്ല."
+
+#: src/system-config-services.glade.h:8
+msgid "Runlevel 2"
+msgstr "റണ്‍ലവല്‍ 2 "
+
+#: src/system-config-services.glade.h:9
+msgid "Runlevel 3"
+msgstr "റണ്‍ലവല്‍ 3"
+
+#: src/system-config-services.glade.h:10
+msgid "Runlevel 4"
+msgstr "റണ്‍ലവല്‍ 4"
+
+#: src/system-config-services.glade.h:11
+msgid "Runlevel 5"
+msgstr "റണ്‍ലവല്‍ 5"
+
+#: src/system-config-services.glade.h:12
+msgid "Runlevel _2"
+msgstr "റണ്‍ലവല്‍ _2"
+
+#: src/system-config-services.glade.h:13
+msgid "Runlevel _3"
+msgstr "റണ്‍ലവല്‍ _3"
+
+#: src/system-config-services.glade.h:14
+msgid "Runlevel _4"
+msgstr "റണ്‍ലവല്‍ _4"
+
+#: src/system-config-services.glade.h:15
+msgid "Runlevel _5"
+msgstr "റണ്‍ലവല്‍ _5"
+
+#: src/system-config-services.glade.h:16
+msgid "S_top"
+msgstr "_നിര്‍ത്തുക"
+
+#: src/system-config-services.glade.h:17
+msgid "Ser_vice"
+msgstr "_സര്‍വീസ്"
+
+#: src/system-config-services.glade.h:18
+msgid "Service Configuration"
+msgstr "സര്‍വീസ് ക്രമീകരണം"
+
+#: src/system-config-services.glade.h:19
+msgid "Service Information"
+msgstr "സര്‍വീസ് വിവരം"
+
+#: src/system-config-services.glade.h:21
+#, no-c-format
+msgid "Status of service %s:"
+msgstr "സര്‍വീസ് %s-ന്റെ അവസ്ഥ:"
+
+#: src/system-config-services.glade.h:22
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA 02111-1307  USA"
+msgstr ""
+"ഇതു് ഒരു സ്വതന്ത്ര സോഫ്റ്റ്‌വെയര്‍ ആകുന്നു; നിങ്ങള്‍ക്കിതു് ഗ്നു ജനറല്‍ പബ്ളിക് ലൈസന്‍സിന്റെ നിബന്ധനകള്‍ "
+"പ്രകാരം (രണ്ടാം ലക്കം അല്ലെങ്കില്‍ നിങ്ങളുടെ താല്‍പര്യമനുസരിച്ച് അതിലും പുതിയ ലക്കം) വീണ്ടും "
+"വിതരണം ചെയ്യുകയോ മാറ്റം വരുത്തുകയോ ചെയ്യാം. ഫ്രീ സോഫ്റ്റ്‌വെയര്‍ ഫൌണ്ടേഷന്‍ ആണു് ഈ ലൈസന്‍സ് "
+"പ്രസിദ്ധീകരിച്ചിട്ടുള്ളത്.\n"
+"\n"
+"വളരെ ഫലപ്രദമായ പ്രോഗ്രാം എന്ന പ്രതീക്ഷയിലാകുന്നു ഇതു് വിതരണം ചെയ്യുന്നതു്. ഇതിനു് വാറന്റി "
+"ലഭ്യമല്ല. കൂടുതല്‍ വിവരങ്ങള്‍ക്കായി ഗ്നു ജനറല്‍ പബ്ളിക് ലൈസന്‍സ് കാണുക.\n"
+"\n"
+"ഈ പ്രോഗ്രാമിനൊപ്പം നിങ്ങള്‍ക്കു് ഗ്നു ജനറല്‍ പബ്ളിക് ലൈസന്‍സിന്റെ ഒരു പകര്‍പ്പും ലഭിച്ചിരിക്കണം, "
+"ഇല്ലായെങ്കില്‍, ‌താഴെ പറയുന്ന മേല്‍വിലാസത്തിലേക്ക് എഴുതുക: Free Software Foundation, Inc., "
+"59 Temple Place, Suite 330, Boston, MA 02111-1307  USA."
+
+#: src/system-config-services.glade.h:28
+msgid ""
+"This service is started once, usually when the system is booted, runs in the "
+"background and wakes up when needed."
+msgstr ""
+"സിസ്റ്റം ബൂട്ട് ചെയ്യുമ്പോള്‍ സര്‍വീസ് ഒരിക്കല്‍ ആരംഭിക്കുന്നു. ശേഷം പശ്ചാത്തലത്തില്‍ പ്രവര്‍ത്തിക്കുന്നു, "
+"ആവശ്യമുള്ളപ്പോള്‍ പ്രത്യക്ഷത്തില്‍ വരുന്നു."
+
+#: src/system-config-services.glade.h:29
+msgid ""
+"This service will be started on demand by the xinetd service and ends when "
+"it has nothing more to do."
+msgstr ""
+"xinetd സര്‍വീസിന്റെ ആവശ്യപ്രകാരം ഈ സര്‍വീസ് ആരംഭിക്കുന്നു. എല്ലാ പ്രക്രിയകളും അവസാനിക്കുമ്പോള്‍ ഈ "
+"സര്‍വീസ് അവസാനിക്കുന്നു."
+
+#: src/system-config-services.glade.h:30
+msgid "_About"
+msgstr "_സംബന്ധിച്ചുള്ള"
+
+#: src/system-config-services.glade.h:31
+msgid "_Contents"
+msgstr "_ഉളളടക്കം"
+
+#: src/system-config-services.glade.h:32
+msgid "_Customize"
+msgstr "_യഥേഷ്ടം"
+
+#: src/system-config-services.glade.h:33
+msgid "_Disable"
+msgstr "_പ്രവര്‍ത്തന രഹിതം"
+
+#: src/system-config-services.glade.h:34
+msgid "_Enable"
+msgstr "_പ്രവര്‍ത്തന സജ്ജം"
+
+#: src/system-config-services.glade.h:35
+msgid "_Help"
+msgstr "_സഹായം"
+
+#: src/system-config-services.glade.h:36
+msgid "_Program"
+msgstr "_പ്രോഗ്രാം"
+
+#: src/system-config-services.glade.h:37
+msgid "_Restart"
+msgstr "_വീണ്ടും ആരംഭിക്കുക"
+
+#: src/system-config-services.glade.h:38
+msgid "_Start"
+msgstr "_ആരംഭിക്കുക"
+
+#: src/system-config-services.glade.h:39
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: src/system-config-services.glade.h:41
+msgid "translator-credits"
+msgstr "അനി പീറ്റര്‍ <apeter@redhat.com>"
+
+#: system-config-services.desktop.in.h:1
+msgid "Configure which services will be running when the system starts"
+msgstr "സിസ്റ്റം ആരംഭിക്കുമ്പോള്‍ ഏതെല്ലാം സര്‍വീസുകള്‍ പ്രവര്‍ത്തിക്കണം എന്നതു് ക്രമീകരിക്കുക"
+
+#: system-config-services.desktop.in.h:2
+msgid "Service Management"
+msgstr "സര്‍വീസ് മാനേജ്മെന്റ്"
+
+#: system-config-services.desktop.in.h:3
+msgid "Services"
+msgstr "സര്‍വീസുകള്‍"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:1
+#: config/org.fedoraproject.config.services.policy.1.in.h:1
+msgid "Get information about system services"
+msgstr "സിസ്റ്റം സര്‍വീസുകളെപ്പറ്റി വിവരങ്ങള്‍ ലഭ്യമാക്കുക"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:2
+#: config/org.fedoraproject.config.services.policy.1.in.h:2
+msgid "Getting information about system services requires authentication"
+msgstr "സിസ്റ്റം സര്‍വീസുകളെപ്പറ്റി വിവരം ലഭിക്കുന്നതിനായി ആധികാരികത ഉറപ്പാക്കേണ്ടതുണ്ടു്"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:3
+#: config/org.fedoraproject.config.services.policy.1.in.h:3
+msgid "Manage system services"
+msgstr "സിസ്റ്റം സര്‍വീസുകള്‍ കൈകാര്യം ചെയ്യുക"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:4
+#: config/org.fedoraproject.config.services.policy.1.in.h:4
+msgid "Managing system services requires authentication"
+msgstr "സിസ്റ്റം സര്‍വീസുകള്‍ കൈകാര്യം ചെയ്യുന്നതിനായി ആധികാരികത ഉറപ്പാക്കേണ്ടതുണ്ടു്"
+

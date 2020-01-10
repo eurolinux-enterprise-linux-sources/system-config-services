@@ -1,0 +1,2542 @@
+With the CVS -> Hg transition, autogeneration of ChangeLog is no longer
+possible. Changes are logged in the %changelog section of
+system-config-services.spec and can usually be queried with the command
+"rpm -q --changelog system-config-services".
+
+### legacy ChangeLog:
+
+2007-06-27  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.desktop.in, system-config-services.spec:
+	fix desktop file category (#245891)
+
+2007-06-17  tombo  <tombo@redhat.com>
+
+	* po/it.po: updated some entry with better translation
+
+2007-06-13  alan  <alan@redhat.com>
+
+	* po/en_GB.po: Autotranslator
+
+2007-06-10  raven  <raven@redhat.com>
+
+	* po/pl.po: Updated Polish Translation
+
+2007-05-04  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* system-config-services.spec: pick up updated translations (#223447)
+
+2007-05-04  trinks  <trinks@redhat.com>
+
+	* po/de.po: *** empty log message ***
+
+2007-05-04  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec: pick up updated translations (#223447)
+
+2007-05-04  trinks  <trinks@redhat.com>
+
+	* po/de.po: *** empty log message ***
+
+2007-04-30  eukim  <eukim@redhat.com>
+
+	* po/ko.po: Updated
+
+2007-04-25  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/te.po, po/tr.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, po/pt.po, po/ar.po, po/as.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, system-config-services.spec:
+	pick up updated translations
+	work around issues with UTF-8 in translatable strings (#232809)
+
+2007-04-25  nphilipp  <nphilipp@redhat.com>
+
+	* po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/te.po, po/tr.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, po/pt.po, po/ar.po, po/as.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, system-config-services.spec:
+	pick up updated translations
+	work around issues with UTF-8 in translatable strings (#232809)
+
+2007-04-09  trinks  <trinks@redhat.com>
+
+	* po/de.po: *** empty log message ***
+
+2007-04-01  igor  <igor@redhat.com>
+
+	* po/pt_BR.po: Revision for F7
+
+2007-03-28  doncho  <doncho@redhat.com>
+
+	* po/bg.po: Updated
+
+2007-03-26  trinks  <trinks@redhat.com>
+
+	* po/de.po: *** empty log message ***
+
+2007-03-22  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec: update URL
+
+2007-03-20  nphilipp  <nphilipp@redhat.com>
+
+	* po/sq.po, po/ta.po, po/te.po, po/ur.po, po/vi.po, po/ar.po, po/as.po, po/bg.po, po/en_GB.po, po/et.po, po/gu.po, po/he.po, po/hi.po, po/hu.po, po/hy.po, po/ka.po, po/kn.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/ml.po, po/mr.po, po/my.po, po/or.po, po/si.po, system-config-services.spec:
+	mention that we are upstream
+	use preferred buildroot
+	fix licensing blurb in PO files
+	recode spec file to UTF-8
+
+2007-03-18  trinks  <trinks@redhat.com>
+
+	* po/de.po: fixed umlaut errors
+
+2007-02-25  lanurmi  <lanurmi@redhat.com>
+
+	* po/fi.po: Menu accelerator collisions fixed.
+
+2007-02-22  dheche  <dheche@redhat.com>
+
+	* po/id.po: finished 8 fuzzy, 2 new string
+
+2007-02-06  dtypald  <dtypald@redhat.com>
+
+	* po/el.po: Translation completed
+
+2007-01-31  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* src/servicemethods.py, system-config-services.spec:
+	fix up service metadata reading a bit (#217591)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec:
+	use "install -m" to install a lot of files without executable bits (#222579)
+
+2007-01-31  nphilipp  <nphilipp@redhat.com>
+
+	* src/servicemethods.py, system-config-services.spec:
+	fix up service metadata reading a bit (#217591)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec:
+	use "install -m" to install a lot of files without executable bits (#222579)
+
+2007-01-31  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile, system-config-services.spec:
+	use "install -m" to install a lot of files without executable bits (#222579)
+
+2007-01-27  kerslage  <kerslage@redhat.com>
+
+	* po/cs.po: Finished
+
+2007-01-24  absinthe  <absinthe@redhat.com>
+
+	* po/bs.po: translated system-config-servics to bosnian
+
+2007-01-24  maxik  <maxik@redhat.com>
+
+	* po/uk.po: Maxim Dziumanenko <dziumanenko@gmail.com>
+
+		* Updated Ukrainian translation
+
+2007-01-23  zoliq  <zoliq@redhat.com>
+
+	* po/sk.po: po-update
+
+2007-01-21  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2007-01-20  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2007-01-18  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-12-26  vpv  <vpv@redhat.com>
+
+	* po/fi.po: Updated Finnish translation
+
+2006-12-09  ra  <ra@redhat.com>
+
+	* po/is.po: *** empty log message ***
+
+2006-12-06  harald  <harald@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* src/servicemethods.py, system-config-services.spec:
+	- fixed service start/stop (#218429)
+	- translation update (#216558)
+	- Resolves: rhbz#216558, rhbz#218429
+
+2006-12-06  Unknown  <harald@redhat.com>
+
+	* src/servicemethods.py, system-config-services.spec:
+	- fixed service start/stop (#218429)
+	- translation update (#216558)
+	- Resolves: rhbz#216558, rhbz#218429
+
+2006-11-29  mrtom  <mrtom@redhat.com>
+
+	* po/fr.po: translation updated
+
+2006-11-29  svenkate  <svenkate@redhat.com>
+
+	* po/kn.po: kannada translation updation
+
+2006-11-28  ccheng  <ccheng@redhat.com>
+
+	* po/hi.po, po/ml.po, po/mr.po, po/pa.po, po/si.po, po/ta.po:
+	Routine merge
+
+2006-11-28  fdecroux  <fdecroux@redhat.com>
+
+	* po/fr.po: Updated
+
+2006-11-27  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: hindi proof
+
+2006-11-27  runab  <runab@redhat.com>
+
+	* po/messages.mo: Removing file messages.mo:27/11
+
+2006-11-25  vpv  <vpv@redhat.com>
+
+	* po/fi.po: Updated Finnish translation
+
+2006-11-24  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* system-config-services.spec: pick up updated translations (#216558)
+
+2006-11-24  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: hindi proof
+
+2006-11-24  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Updated malayalam file
+
+2006-11-24  aalam  <aalam@redhat.com>
+
+	* po/pa.po:
+	update translation for Punjabi (Gurmukhi) by apbrar gmail com
+
+2006-11-24  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec: pick up updated translations (#216558)
+
+2006-11-24  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: hindi proof
+
+2006-11-24  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Updated malayalam file
+
+2006-11-24  aalam  <aalam@redhat.com>
+
+	* po/pa.po:
+	update translation for Punjabi (Gurmukhi) by apbrar gmail com
+
+2006-11-23  ifelix  <ifelix@redhat.com>
+
+	* po/ta.po: Fedora ta translation updated
+
+2006-11-23  rbhalera  <rbhalera@redhat.com>
+
+	* po/mr.po: Updated Marathi Translations
+
+2006-11-23  bershath  <bershath@redhat.com>
+
+	* po/si.po: translated
+
+2006-11-21  raven  <raven@redhat.com>
+
+	* po/pl.po: Updated Polish translation
+
+2006-11-21  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-11-21  nphilipp  <nphilipp@redhat.com>
+
+	* po/as.po, po/bn_IN.po, po/da.po, po/de.po, po/es.po, po/fi.po, po/fr.po, po/gu.po, po/hi.po, po/hr.po, po/it.po, po/ja.po, po/ko.po, po/lv.po, po/ml.po, po/nb.po, po/or.po, po/pa.po, po/pl.po, po/pt_BR.po, po/ro.po, po/si.po, po/sr.po, po/sr@Latn.po, po/ta.po, po/te.po, po/tr.po:
+	make update-po
+
+2006-11-21  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: routine merge
+
+2006-11-21  gatons  <gatons@redhat.com>
+
+	* po/lv.po: *** empty log message ***
+
+2006-11-20  bershath  <bershath@redhat.com>
+
+	* po/si.po: translated 50%
+
+2006-11-20  ltenn  <ltenn@redhat.com>
+
+	* po/zh_CN.po: Routine merge by l10n
+
+2006-11-19  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Update norwegian bokmål translation
+
+2006-11-16  alexxed  <alexxed@redhat.com>
+
+	* po/ro.po: updated a few texts, corrected others for consistency
+
+2006-11-12  tombo  <tombo@redhat.com>
+
+	* po/it.po: updated 13 fuzzy and 16 untraslated
+
+2006-11-10  andrmart  <andrmart@redhat.com>
+
+	* po/ru.po: Updated translation after FC6 release
+
+2006-11-07  pve-nl  <pve-nl@redhat.com>
+
+	* po/nl.po: Some fixes for system-config-services nl.po
+
+2006-11-06  iasci  <iasci@redhat.com>
+
+	* po/tr.po: *** empty log message ***
+
+2006-11-02  raven  <raven@redhat.com>
+
+	* po/pl.po: Updated Polish translation
+
+2006-11-01  splinux  <splinux@redhat.com>
+
+	* po/fr.po: Updated french translation
+
+2006-11-01  eukim  <eukim@redhat.com>
+
+	* po/ko.po: Updated
+
+2006-10-31  noriko  <noriko@redhat.com>
+
+	* po/ja.po: updates translated
+
+2006-10-31  zyang  <zyang@redhat.com>
+
+	* po/zh_CN.po: *** empty log message ***
+
+2006-10-30  sganesh  <sganesh@redhat.com>
+
+	* po/te.po: Telugu translation commited
+
+2006-10-29  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Update some
+
+2006-10-26  raada  <raada@redhat.com>
+
+	* po/sv.po: *** empty log message ***
+
+2006-10-25  amit  <amit@redhat.com>
+
+	* po/as.po: updated assamese system-config-services translation
+
+2006-10-25  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Updated Malayalam file
+
+2006-10-24  runab  <runab@redhat.com>
+
+	* po/bn_IN.po: Updated Bengali India Translation:24/10
+
+2006-10-24  aalam  <aalam@redhat.com>
+
+	* po/pa.po: update for Punjabi by alam
+
+2006-10-24  trinks  <trinks@redhat.com>
+
+	* po/de.po: total:62 fuzzy:0 untranslated:0
+
+2006-10-23  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: hindi sys conf service trans udpate
+
+2006-10-23  ifelix  <ifelix@redhat.com>
+
+	* po/ta.po:
+	System config services and virt-manager modules are updated in tamil translation
+
+2006-10-22  tszanto  <tszanto@redhat.com>
+
+	* po/hu.po: *** empty log message ***
+
+2006-10-22  vpv  <vpv@redhat.com>
+
+	* po/fi.po: Updated Finnish translation
+
+2006-10-22  xconde  <xconde@redhat.com>
+
+	* po/ca.po: Updated by Xavier Conde
+
+2006-10-21  keldsim  <keldsim@redhat.com>
+
+	* po/da.po: updates
+	setuptool/da.po system-config-services/da.po
+
+2006-10-21  kmilos  <kmilos@redhat.com>
+
+	* po/sr@Latn.po, po/sr.po: *** empty log message ***
+
+2006-10-20  renato  <renato@redhat.com>
+
+	* po/hr.po: new lines
+
+2006-10-20  beckerde  <beckerde@redhat.com>
+
+	* po/es.po: listo
+
+2006-10-20  igor  <igor@redhat.com>
+
+	* po/pt_BR.po: *** empty log message ***
+
+2006-10-20  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: Updated Gujarati Translations
+
+2006-10-20  zepires  <zepires@redhat.com>
+
+	* po/pt.po: Finished  system-config-services
+
+2006-10-20  sbehera  <sbehera@redhat.com>
+
+	* po/or.po: Updated Oriya Translation
+
+2006-10-20  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/te.po, po/tr.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/ar.po, po/as.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/Makefile, po/system-config-services.gladestrings, po/system-config-services.pot, system-config-services.spec:
+	use intltool-extract for i18n of glade files (#211248) and desktop file (#207345)
+
+2006-10-20  nphilipp  <nphilipp@redhat.com>
+
+	* po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/ta.po, po/te.po, po/tr.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/ar.po, po/as.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/Makefile, po/system-config-services.gladestrings, po/system-config-services.pot, system-config-services.spec:
+	use intltool-extract for i18n of glade files (#211248) and desktop file (#207345)
+
+2006-10-17  rbhalera  <rbhalera@redhat.com>
+
+	* po/mr.po: Updated Translation
+
+2006-10-06  sganesh  <sganesh@redhat.com>
+
+	* po/te.po: Telugu translation commited
+
+2006-10-03  igor  <igor@redhat.com>
+
+	* po/pt_BR.po: *** empty log message ***
+
+2006-10-02  amit  <amit@redhat.com>
+
+	* po/as.po: updated assamese system-config-services translation
+
+2006-10-01  keldsim  <keldsim@redhat.com>
+
+	* po/da.po: updates
+	firstboot/da.po initscripts/da.po system-config-services/da.po
+	system-config-soundcard/da.po system-config-lvm/po/da.po
+
+2006-09-29  amit  <amit@redhat.com>
+
+	* po/as.po: system-config-services for translation
+
+2006-09-26  runab  <runab@redhat.com>
+
+	* po/bn_IN.po: Updated Bengali India Translation
+
+2006-09-25  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Updated Malayalam ml.po
+
+2006-09-09  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-09-08  zoliq  <zoliq@redhat.com>
+
+	* po/sk.po: po-update
+
+2006-09-06  vpv  <vpv@redhat.com>
+
+	* po/fi.po: Updated Finnish translation
+
+2006-09-05  joseppc  <joseppc@redhat.com>
+
+	* po/ca.po: Updated Catalan translation.
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: fix typo
+
+2006-09-05  raven  <raven@redhat.com>
+
+	* po/pl.po: Updated Polish translation
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: fix relative symlinking in install target
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: don't recursively make in po/
+
+	* ChangeLog: *** empty log message ***
+
+	* po/zh_CN.po, po/zh_TW.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/te.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, Makefile, po/ar.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po:
+	recursively make in po/ as well
+
+	* Makefile, po/ro.po, system-config-services.spec:
+	fix circular make dependency
+	remove duplicate message definitions
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: more tagging fixes
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: correct explanation
+
+	* Makefile: better explanation
+
+	* Makefile: add explanation
+
+	* Makefile: fail on not moving tags
+
+	* Makefile, system-config-services.spec: require gettext for building
+	fix tagging for make archive
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile: fix typo
+
+2006-09-05  raven  <raven@redhat.com>
+
+	* po/pl.po: Updated Polish translation
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: fix relative symlinking in install target
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: don't recursively make in po/
+
+	* ChangeLog: *** empty log message ***
+
+	* po/zh_CN.po, po/zh_TW.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/te.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, Makefile, po/ar.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po:
+	recursively make in po/ as well
+
+	* Makefile, po/ro.po, system-config-services.spec:
+	fix circular make dependency
+	remove duplicate message definitions
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: more tagging fixes
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: correct explanation
+
+	* Makefile: better explanation
+
+	* Makefile: add explanation
+
+	* Makefile: fail on not moving tags
+
+	* Makefile, system-config-services.spec: require gettext for building
+	fix tagging for make archive
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile: fix relative symlinking in install target
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: don't recursively make in po/
+
+	* ChangeLog: *** empty log message ***
+
+	* po/zh_CN.po, po/zh_TW.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/te.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, Makefile, po/ar.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po:
+	recursively make in po/ as well
+
+	* Makefile, po/ro.po, system-config-services.spec:
+	fix circular make dependency
+	remove duplicate message definitions
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: more tagging fixes
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: correct explanation
+
+	* Makefile: better explanation
+
+	* Makefile: add explanation
+
+	* Makefile: fail on not moving tags
+
+	* Makefile, system-config-services.spec: require gettext for building
+	fix tagging for make archive
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile: don't recursively make in po/
+
+	* ChangeLog: *** empty log message ***
+
+	* po/zh_CN.po, po/zh_TW.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/te.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, Makefile, po/ar.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po:
+	recursively make in po/ as well
+
+	* Makefile, po/ro.po, system-config-services.spec:
+	fix circular make dependency
+	remove duplicate message definitions
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: more tagging fixes
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: correct explanation
+
+	* Makefile: better explanation
+
+	* Makefile: add explanation
+
+	* Makefile: fail on not moving tags
+
+	* Makefile, system-config-services.spec: require gettext for building
+	fix tagging for make archive
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* po/zh_CN.po, po/zh_TW.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/te.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/ja.po, po/ka.po, po/kn.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, Makefile, po/ar.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po:
+	recursively make in po/ as well
+
+	* Makefile, po/ro.po, system-config-services.spec:
+	fix circular make dependency
+	remove duplicate message definitions
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: more tagging fixes
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: correct explanation
+
+	* Makefile: better explanation
+
+	* Makefile: add explanation
+
+	* Makefile: fail on not moving tags
+
+	* Makefile, system-config-services.spec: require gettext for building
+	fix tagging for make archive
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile: more tagging fixes
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: correct explanation
+
+	* Makefile: better explanation
+
+	* Makefile: add explanation
+
+	* Makefile: fail on not moving tags
+
+	* Makefile, system-config-services.spec: require gettext for building
+	fix tagging for make archive
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile: correct explanation
+
+	* Makefile: better explanation
+
+	* Makefile: add explanation
+
+	* Makefile: fail on not moving tags
+
+	* Makefile, system-config-services.spec: require gettext for building
+	fix tagging for make archive
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile, system-config-services.spec: install po files (again)
+
+	* ChangeLog: *** empty log message ***
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-05  nphilipp  <nphilipp@redhat.com>
+
+	* Makefile: commit ChangeLog before tagging for archive
+
+	* src/serviceconf.py, system-config-services.spec:
+	don't disable Start/Stop/Restart upon reverting changes (#202722)
+	add dist tag
+
+2006-09-04  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-09-04  noriko  <noriko@redhat.com>
+
+	* po/ja.po: sync with pot
+
+2006-09-02  glezos  <glezos@redhat.com>
+
+	* po/el.po: Quality assurance:
+	 1. First round in substituting root, diaxeiristis as "yperxristis"
+	 2. Remove final "n" when not needed: to gero, ti giagia, sti fylaki
+	    but not from "Na sas ton emfanisw?".
+
+	* po/el.po: Quality assurance by mass editing:
+	 1. sthN omada, afthN th gnwmh, auton to gero
+	 2. Diorthwsi dialitikwn pou akolouthoun tonoumeno fwnien
+	 3. Correction of english letters accidentally put inside greek words
+	 4. wordsWith a capital letter inside probably mean a forgotten space
+	 5. After a full stop a space is needed
+
+	* po/el.po:
+	Quality Assurance: Changed the way Capitalized Words appear inside
+	sentences. Basically, removed any continuous capitalized words. Mass-commit,
+	I hope I didn't screw up anything. ;)
+
+2006-09-01  szenti  <szenti@redhat.com>
+
+	* po/hu.po: Hungarian translation updated for FC6.
+
+2006-08-29  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-08-23  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: hindi proofreading
+
+2006-08-23  raada  <raada@redhat.com>
+
+	* po/sv.po: finished translation
+
+2006-08-18  nphilipp  <nphilipp@redhat.com>
+
+	* src/serviceconf.glade, src/serviceconf.py, src/servicemethods.py, system-config-services.spec:
+	make revert work again (#202467)
+	don't show all runlevels when starting
+
+2006-08-14  maxik  <maxik@redhat.com>
+
+	* po/uk.po: 2006-08-14  Maxim Dziumanenko <dziumanenko@gmail.com>
+
+		* Update Ukrainian translation.
+
+2006-08-12  apbrar  <apbrar@redhat.com>
+
+	* po/pa.po: *** empty log message ***
+
+2006-07-26  noriko  <noriko@redhat.com>
+
+	* po/ja.po: modified for QA
+
+2006-07-24  diegobz  <diegobz@redhat.com>
+
+	* po/pt_BR.po: Update to ./system-config-services/
+
+2006-07-21  vpv  <vpv@redhat.com>
+
+	* po/fi.po: Updated Finnish translation
+
+2006-07-16  niko  <niko@redhat.com>
+
+	* po/cs.po: Finished.
+
+2006-07-16  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-07-15  igor  <igor@redhat.com>
+
+	* po/pt_BR.po: *** empty log message ***
+
+2006-07-13  elf  <elf@redhat.com>
+
+	* po/ja.po:
+	* replace "yu-za" to "u-za-", "purinta" to "purinta-", "sa-ba" to "sa-ba-".
+
+2006-07-09  mrtom  <mrtom@redhat.com>
+
+	* po/fr.po: Update to ./system-config-services/
+
+2006-07-08  frolix68  <frolix68@redhat.com>
+
+	* po/el.po: Update to ./system-config-services/
+
+2006-07-01  ra  <ra@redhat.com>
+
+	* po/is.po: *** empty log message ***
+
+2006-06-26  eukim  <eukim@redhat.com>
+
+	* po/ko.po: upload files
+
+2006-06-24  mrtom  <mrtom@redhat.com>
+
+	* po/fr.po: adding myself to the translator list
+
+2006-06-23  emturanb  <emturanb@redhat.com>
+
+	* po/tr.po: *** empty log message ***
+
+2006-06-23  hisaito  <hisaito@redhat.com>
+
+	* po/ja.po: translation finished in system-config-services
+
+2006-06-23  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Updated ml.po
+
+2006-06-22  mgcontri  <mgcontri@redhat.com>
+
+	* po/de.po: *** empty log message ***
+
+2006-06-21  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-06-19  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: updated hindi translation
+
+2006-06-12  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Update
+
+2006-06-12  wwycheuk  <wwycheuk@redhat.com>
+
+	* po/zh_TW.po: update
+
+2006-06-11  diegobz  <diegobz@redhat.com>
+
+	* po/pt_BR.po: Update to ./system-config-services/
+
+2006-06-06  sehh  <sehh@redhat.com>
+
+	* po/el.po: Complete Greek translation for system-config-services
+
+2006-06-06  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec:
+	- Added BuildRequires perl-XML-Parser (#194179)
+	- Added Requires(post) and (postun) gtk2
+
+2006-06-04  mrtom  <mrtom@redhat.com>
+
+	* po/fr.po: French Translation Updated for this file
+
+2006-06-03  raven  <raven@redhat.com>
+
+	* po/pl.po: Updated and improved Polish translation
+
+2006-06-01  pve-nl  <pve-nl@redhat.com>
+
+	* po/nl.po: Some fixes for system-config-services nl.po
+
+2006-05-29  mrtom  <mrtom@redhat.com>
+
+	* po/fr.po: *** empty log message ***
+
+2006-05-29  chinese  <chinese@redhat.com>
+
+	* po/zh_CN.po: translate the fuzzy words of the po file
+
+2006-05-28  chinese  <chinese@redhat.com>
+
+	* po/zh_CN.po: update servel records
+
+2006-05-28  kmilos  <kmilos@redhat.com>
+
+	* po/sr@Latn.po, po/sr.po: *** empty log message ***
+
+2006-05-27  igor  <igor@redhat.com>
+
+	* po/pt_BR.po: *** empty log message ***
+
+2006-05-26  skippyd  <skippyd@redhat.com>
+
+	* po/fr.po: little changes
+
+2006-05-25  ifelix  <ifelix@redhat.com>
+
+	* po/ta.po: Tamil translation updated
+
+2006-05-24  gatons  <gatons@redhat.com>
+
+	* po/lv.po: *** empty log message ***
+
+2006-05-23  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Start this
+
+2006-05-23  andrmart  <andrmart@redhat.com>
+
+	* po/ru.po: Updated translation
+
+2006-05-23  sbehera  <sbehera@redhat.com>
+
+	* po/or.po: Updated Oriya translation
+
+2006-05-22  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: Updated Gujarati Translations
+
+2006-05-22  aalam  <aalam@redhat.com>
+
+	* po/kn.po, po/te.po: adding new files for language Telugu/Kannada
+
+2006-05-22  runab  <runab@redhat.com>
+
+	* po/bn_IN.po: Updated Bengali India Translation
+
+2006-05-22  fvalen  <fvalen@redhat.com>
+
+	* po/it.po: Updated
+
+2006-05-22  zepires  <zepires@redhat.com>
+
+	* po/pt.po: Finished Fedora for today
+
+2006-05-21  beckerde  <beckerde@redhat.com>
+
+	* po/es.po: listo el pollo
+
+2006-05-20  renato  <renato@redhat.com>
+
+	* po/hr.po: *** empty log message ***
+
+2006-05-19  nphilipp  <nphilipp@redhat.com>
+
+	* po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, src/Makefile.am, po/lv.po, po/mk.po, po/ml.po, po/mr.po, po/ms.po, po/my.po, po/nb.po, po/nl.po, po/no.po, po/or.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/de.po, po/el.po, po/en_GB.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/hy.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, Makefile, Makefile.am, aclocal.m4, autogen.sh, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, intltool.patch, man/Makefile.am, mkinstalldirs, po/Makefile, po/Makefile.in.in, po/ar.po, po/bg.po, po/bn.po, po/bn_IN.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, system-config-services.spec, system-config-services.spec.in:
+	rip out autofoo
+	use bzip2'ed tarballs
+
+2006-05-14  stwister  <stwister@redhat.com>
+
+	* po/ro.po: *** empty log message ***
+
+2006-04-27  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Updated malayalam file
+
+2006-04-26  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Updated malayalam file ml.po
+
+2006-04-25  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-04-25  jan  <jan@redhat.com>
+
+	* po/lv.po: *** empty log message ***
+
+2006-04-24  mospina  <mospina@redhat.com>
+
+	* po/es.po: automerge done
+
+2006-04-19  rbhalera  <rbhalera@redhat.com>
+
+	* po/mr.po:
+	translating the package anaconda and updating the po files for mr_IN
+
+2006-04-19  runab  <runab@redhat.com>
+
+	* po/bn_IN.po: Updated Bengali INDIA (bn_IN) Translation
+
+	* po/bn_IN.po: Updated Bengali India Translation
+
+2006-04-19  ifelix  <ifelix@redhat.com>
+
+	* po/ta.po: updated tamil translation files
+
+2006-04-19  sbehera  <sbehera@redhat.com>
+
+	* po/messages.mo, po/or.po: Merged Oriya translation with .pot file
+
+2006-04-18  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: Merged the strings with .pot files
+
+2006-04-16  renato  <renato@redhat.com>
+
+	* po/hr.po: *** empty log message ***
+
+2006-04-07  nphilipp  <nphilipp@redhat.com>
+
+	* src/checklist.py, system-config-services.spec.in: don't use eval()
+
+2006-04-03  maxik  <maxik@redhat.com>
+
+	* po/uk.po: 2006-04-03  Maxim Dziumanenko <mvd@mylinux.ua>
+
+		* Updated Ukrainian translation.
+
+2006-04-03  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: routine merge
+
+2006-04-02  rodrigop  <rodrigop@redhat.com>
+
+	* po/pt_BR.po: Correcao
+
+	* po/pt_BR.po: Traducao
+
+2006-03-31  ffesti  <ffesti@redhat.com>
+
+	* src/servicecontrol.py:
+	[ffesti] Added module with widgets for controling services inside other
+	config tools
+
+2006-03-29  apeter  <apeter@redhat.com>
+
+	* po/ml.po: Added Malayalam file ml.po
+
+2006-03-23  rbhalera  <rbhalera@redhat.com>
+
+	* po/mr.po: Finished remaining translation(1 string)
+
+	* po/mr.po: Translated 54/55 strings
+
+2006-03-21  renato  <renato@redhat.com>
+
+	* po/hr.po: *** empty log message ***
+
+2006-03-21  sbehera  <sbehera@redhat.com>
+
+	* po/or.po: Updated Oriya translation
+
+2006-03-13  mospina  <mospina@redhat.com>
+
+	* po/es.po: updated
+
+2006-03-10  dheche  <dheche@redhat.com>
+
+	* po/id.po: finished
+
+2006-03-08  aalam  <aalam@redhat.com>
+
+	* po/pa.po: update for incorrect entry in Punjabi file
+
+2006-03-07  ifelix  <ifelix@redhat.com>
+
+	* po/ta.po: Fedora translation of Tamil updated
+
+2006-03-07  sbehera  <sbehera@redhat.com>
+
+	* po/or.po: Added Oriya File
+
+2006-03-03  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec.in: fix typo
+
+	* Makefile.am: appease make distcheck *grr*
+
+	* src/Makefile.am: appease make dist-check even more
+
+	* src/Makefile.am: appease make distcheck
+
+	* configure.in, intltool-merge.in, system-config-services.spec.in:
+	requires hicolor-icon-theme (#182878, #182879)
+
+2006-02-28  ffesti  <ffesti@redhat.com>
+
+	* ChangeLog, Makefile.am, intltool-merge.in, po/system-config-services.pot, system-config-services.spec.in:
+	Updated changelog
+
+2006-02-28  nphilipp  <nphilipp@redhat.com>
+
+	* src/serviceconf.py: fix some tracebacks on startup
+
+2006-02-28  ffesti  <ffesti@redhat.com>
+
+	* src/Makefile.am, src/serviceconf.py, src/servicemethods.py, src/servicetab.glade, src/servicetab.gladep:
+	dded gladefile for service control widget
+
+2006-02-23  tombo  <tombo@redhat.com>
+
+	* po/it.po: Better translation of some strings
+
+2006-02-20  coe  <coe@redhat.com>
+
+	* po/da.po: *** empty log message ***
+
+2006-02-17  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2006-02-06  menthos  <menthos@redhat.com>
+
+	* po/sv.po: Updated Swedish translation.
+
+2006-02-05  serhat  <serhat@redhat.com>
+
+	* po/tr.po: Done
+
+2006-02-05  serhat  <serhat@redhat.com>
+
+	* po/tr.po: Done
+
+2006-02-04  hisaito  <hisaito@redhat.com>
+
+	* po/ja.po: translation partially finished in system-config-services
+
+2006-02-03  Rajesh Ranjan  <rranjan@redhat.com>
+
+	* po/hi.po: updtaed hi
+
+2006-02-03  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: Updated Gujarati Translations
+
+2006-02-02  Tongjie Fu  <tfu@redhat.com>
+
+	* po/zh_CN.po: updated translation
+
+2006-02-02  Amanpreet Brar  <aalam@redhat.com>
+
+	* po/pa.po: update for Punjabi
+
+2006-02-01  szenti  <szenti@redhat.com>
+
+	* po/hu.po: Finished translation for FC5.
+
+2006-02-01  Audrey Simons  <asimons@redhat.com>
+
+	* po/fr.po: updated
+
+2006-01-31  rodrigop  <rodrigop@redhat.com>
+
+	* po/pt_BR.po: Correção e Tradução
+
+2006-01-31  Nils Philippsen  <nphilipp@redhat.com>
+
+	* po/de.po: update German translation
+
+2006-01-31  ra  <ra@redhat.com>
+
+	* po/is.po: *** empty log message ***
+
+2006-01-31  Michelle Kim  <mkim@redhat.com>
+
+	* po/ko.po: translation update
+
+2006-01-30  Rajesh Ranjan  <rranjan@redhat.com>
+
+	* po/hi.po: updating
+
+2006-01-30  Chung Cheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: *** empty log message ***
+
+2006-01-30  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: Updated Gujarati Translations
+
+2006-01-29  kmilos  <kmilos@redhat.com>
+
+	* po/sr@Latn.po, po/sr.po: *** empty log message ***
+
+2006-01-29  pve-nl  <pve-nl@redhat.com>
+
+	* po/nl.po: Some fixes for system-config-services nl.po
+
+2006-01-29  joseppc  <joseppc@redhat.com>
+
+	* po/ca.po: Updated Catalan translation.
+
+2006-01-28  andrmart  <andrmart@redhat.com>
+
+	* po/ru.po: Updated translation
+
+2006-01-28  niko  <niko@redhat.com>
+
+	* po/cs.po: Fuzzy entries corrected.
+
+2006-01-28  zepires  <zepires@redhat.com>
+
+	* po/pt.po: Spelling errors corrected
+
+	* po/pt.po: Completed translations for today
+
+2006-01-28  jassy  <jassy@redhat.com>
+
+	* po/pa.po: Updated by Jassy
+
+2006-01-27  raven  <raven@redhat.com>
+
+	* po/pl.po: Update
+
+2006-01-27  Nils Philippsen  <nphilipp@redhat.com>
+
+	* ChangeLog, configure.in, po/system-config-services.pot, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	release 0.8.99.2
+
+2006-01-27  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Update
+
+2006-01-27  tombo  <tombo@redhat.com>
+
+	* po/it.po: Updated developer colophon
+
+2006-01-27  Nils Philippsen  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.99.1
+
+	* configure.in, src/checklist.py, src/serviceconf.glade, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	implement daemons and xinetd services on separate tabs
+
+	* po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po:
+	update-po
+
+2006-01-27  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Update
+
+2006-01-27  tombo  <tombo@redhat.com>
+
+	* po/it.po: Updated developer colophon
+
+2006-01-27  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.99.1
+
+	* configure.in, src/checklist.py, src/serviceconf.glade, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	implement daemons and xinetd services on separate tabs
+
+	* po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po:
+	update-po
+
+2006-01-27  nphilipp  <nphilipp@redhat.com>
+
+	* configure.in, src/checklist.py, src/serviceconf.glade, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	implement daemons and xinetd services on separate tabs
+
+	* po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po:
+	update-po
+
+2006-01-26  jamil  <jamil@redhat.com>
+
+	* po/bn.po: Updated translation on Jan 26, 2006
+
+2006-01-24  aalam  <aalam@redhat.com>
+
+	* po/pa.po: update for Punjabi
+
+2006-01-22  andrmart  <andrmart@redhat.com>
+
+	* po/ru.po: Correction of spelling
+
+2006-01-21  niko  <niko@redhat.com>
+
+	* po/cs.po: Fuzzy entries corrected, missing supplied.
+
+2006-01-20  zepires  <zepires@redhat.com>
+
+	* po/pt.po: Sent consistency fixes
+
+2006-01-20  runab  <runab@redhat.com>
+
+	* po/bn_IN.po: Updated Bengali India Translation:20/01
+
+2006-01-18  joseppc  <joseppc@redhat.com>
+
+	* po/ca.po: Updated Catalan translation.
+
+2006-01-18  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: hi update
+
+2006-01-17  wedge  <wedge@redhat.com>
+
+	* po/ru.po: system-config-services ru translation updated
+
+2006-01-17  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: Routine merge
+
+2006-01-16  menthos  <menthos@redhat.com>
+
+	* po/sv.po: Updated Swedish translation.
+
+2006-01-16  mkim  <mkim@redhat.com>
+
+	* po/ko.po: Updated.
+
+2006-01-16  mospina  <mospina@redhat.com>
+
+	* po/es.po: updated
+
+2006-01-15  menthos  <menthos@redhat.com>
+
+	* po/sv.po: Updated Swedish translation.
+
+2006-01-14  leahliu  <leahliu@redhat.com>
+
+	* po/zh_CN.po: modified by leah
+
+2006-01-11  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: Updated Gujarati Translations
+
+2006-01-10  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Update
+
+2006-01-10  zepires  <zepires@redhat.com>
+
+	* po/pt.po: corrected spelling errors on system-config-services
+
+2006-01-10  pve-nl  <pve-nl@redhat.com>
+
+	* po/nl.po: Some fixes for system-config-services nl.po
+
+2006-01-10  wwycheuk  <wwycheuk@redhat.com>
+
+	* po/zh_TW.po: update
+
+2006-01-10  zepires  <zepires@redhat.com>
+
+	* po/pt.po: Finished translations fro today
+
+2006-01-10  nphilipp  <nphilipp@redhat.com>
+
+	* po/sr@Latn.po: update sr@Latn translations
+
+2006-01-10  ra  <ra@redhat.com>
+
+	* po/is.po: *** empty log message ***
+
+2006-01-10  jassy  <jassy@redhat.com>
+
+	* po/pa.po: Updated by Jassy
+
+2006-01-10  tombo  <tombo@redhat.com>
+
+	* po/it.po:
+	updated strings about on demand services and background services; used _r instead of _o in menu definition
+
+2006-01-09  asimons  <asimons@redhat.com>
+
+	* po/fr.po: updated
+
+2006-01-09  raven  <raven@redhat.com>
+
+	* po/pl.po: Update
+
+2006-01-09  kmilos  <kmilos@redhat.com>
+
+	* po/sr.po: *** empty log message ***
+
+2006-01-09  nphilipp  <nphilipp@redhat.com>
+
+	* po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sr.po, po/sr@Latn.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, configure.in, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, system-config-services.spec.in:
+	*** empty log message ***
+
+	* po/sl.po, po/sq.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, src/serviceconf.glade, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ar.po, system-config-services.spec.in:
+	separate daemons and xinetd based services
+
+	* po/sr@Latin.po, po/sr@Latn.po:
+	Serbian Latin is in sr@Latn, not sr@Latin
+
+2006-01-09  sarahs  <sarahs@redhat.com>
+
+	* po/sr@Latin.po: new locale for Serbian Latin
+
+2006-01-04  kmilos  <kmilos@redhat.com>
+
+	* po/sr.po: *** empty log message ***
+
+2005-12-23  sarahs  <sarahs@redhat.com>
+
+	* po/my.po: add new locale
+
+2005-12-22  nphilipp  <nphilipp@redhat.com>
+
+	* po/zh_TW.po, po/sq.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po:
+	add sr@Latn.po, distribute Serbian translations (#176148)
+
+2005-12-19  giomac  <giomac@redhat.com>
+
+	* po/ka.po: Georgian translation for system-config-services finished
+
+2005-12-02  zepires  <zepires@redhat.com>
+
+	* po/pt.po: Removed most of the 'not-real' spelling errors
+
+2005-11-14  kmilos  <kmilos@redhat.com>
+
+	* po/sr.po: *** empty log message ***
+
+2005-10-27  dheche  <dheche@redhat.com>
+
+	* po/id.po: finished
+
+2005-10-26  dheche  <dheche@redhat.com>
+
+	* po/id.po: finished
+
+2005-10-21  raven  <raven@redhat.com>
+
+	* po/pl.po: Update and another improvements
+
+2005-10-14  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.pam, system-config-services.spec.in:
+	don't use pam_stack (#170645)
+
+2005-10-10  sarahs  <sarahs@redhat.com>
+
+	* po/hy.po: initial files
+
+2005-10-05  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: Automerge
+
+2005-09-11  raven  <raven@redhat.com>
+
+	* po/pl.po: Many improvements and updates
+
+2005-08-22  kmilos  <kmilos@redhat.com>
+
+	* po/sr.po: *** empty log message ***
+
+2005-08-16  nphilipp  <nphilipp@redhat.com>
+
+	* po/system-config-services.pot, aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, po/Makefile.in.in, system-config-services.spec.in:
+	package %{_bindir}/serviceconf symlink (#165099)
+	bump version
+
+	* src/servicemethods.py, system-config-services.spec.in:
+	revamp getting output from external commands (#162884)
+
+2005-08-11  kmilos  <kmilos@redhat.com>
+
+	* po/sr.po: *** empty log message ***
+
+2005-08-04  weliu  <weliu@redhat.com>
+
+	* po/zh_CN.po: finished
+
+2005-07-28  xyzallan  <xyzallan@redhat.com>
+
+	* po/et.po: Fixed fuzzies and improved language
+
+2005-07-25  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: updating hi.po
+
+2005-06-23  pve-nl  <pve-nl@redhat.com>
+
+	* po/nl.po: Some fixes for system-config-services nl.po
+
+2005-06-16  mkim  <mkim@redhat.com>
+
+	* po/ko.po: translation update
+
+2005-06-09  mospina  <mospina@redhat.com>
+
+	* po/es.po: updating
+
+2005-05-25  munzir  <munzir@redhat.com>
+
+	* po/ar.po: - 53 translated messages.
+
+2005-05-25  arclynx  <arclynx@redhat.com>
+
+	* po/ms.po: Updated Malay translation
+
+2005-05-22  menthos  <menthos@redhat.com>
+
+	* po/sv.po: 2005-05-22  Christian Rose  <menthos@menthos.com>
+
+		* sv.po: Updated Swedish translation.
+
+2005-05-19  pmacedo  <pmacedo@redhat.com>
+
+	* po/pt_BR.po: Fixed all fuzzyness and untranslated messages for pt_BR.
+
+2005-05-16  keldsim  <keldsim@redhat.com>
+
+	* po/da.po: updates
+	comps-po/da.po system-config-nfs/da.po
+	system-config-services/da.po usermode/da.po
+
+2005-05-12  mitr  <mitr@redhat.com>
+
+	* po/cs.po: Update Czech translation
+
+2005-05-12  marcel  <marcel@redhat.com>
+
+	* po/sk.po: Updated Slovak translation.
+
+2005-05-10  marcusgl  <marcusgl@redhat.com>
+
+	* po/de.po: no message
+
+2005-05-09  kissifro  <kissifro@redhat.com>
+
+	* po/fr.po: *** empty log message ***
+
+2005-05-09  nphilipp  <nphilipp@redhat.com>
+
+	* po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, ChangeLog, po/ar.po:
+	release 0.8.25
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, po/Makefile.in.in, system-config-services.spec.in:
+	- pick up updated translations
+
+2005-05-09  morais  <morais@redhat.com>
+
+	* po/pt.po: update
+
+2005-05-09  jamil  <jamil@redhat.com>
+
+	* po/bn.po: Updated on May 9, 2005
+
+2005-05-08  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: *** empty log message ***
+
+2005-05-09  nphilipp  <nphilipp@redhat.com>
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, po/Makefile.in.in, system-config-services.spec.in:
+	- pick up updated translations
+
+2005-05-09  morais  <morais@redhat.com>
+
+	* po/pt.po: update
+
+2005-05-09  jamil  <jamil@redhat.com>
+
+	* po/bn.po: Updated on May 9, 2005
+
+2005-05-08  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: *** empty log message ***
+
+2005-05-08  andrmart  <andrmart@redhat.com>
+
+	* po/ru.po: Updated after FC4-test3
+
+2005-05-08  tszanto  <tszanto@redhat.com>
+
+	* po/hu.po: *** empty log message ***
+
+2005-05-07  ufo  <ufo@redhat.com>
+
+	* po/mk.po: fixed fuzzy
+
+2005-05-07  hisaito  <hisaito@redhat.com>
+
+	* po/ja.po: translation finished in system-config-service
+
+2005-05-07  jassy  <jassy@redhat.com>
+
+	* po/pa.po: update by jaswinderphulewala@yahoo.com
+
+2005-05-06  ra  <ra@redhat.com>
+
+	* po/is.po: *** empty log message ***
+
+2005-05-06  tombo  <tombo@redhat.com>
+
+	* po/it.po: *** empty log message ***
+
+2005-05-06  joseppc  <joseppc@redhat.com>
+
+	* po/ca.po: Updated Catalan translation, added notice.
+
+2005-05-06  tombo  <tombo@redhat.com>
+
+	* po/it.po: *** empty log message ***
+
+2005-05-06  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: Updated Translations
+
+2005-05-06  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po: Update
+
+2005-05-06  raven  <raven@redhat.com>
+
+	* po/pl.po: pl/bugs.txt
+
+2005-05-06  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.24
+
+	* po/sk.po, po/sl.po, po/sq.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, configure.in, po/POTFILES.in, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, system-config-services.spec.in:
+	make "make update-po" pick up translatable strings in desktop file (#156801)
+
+	* ChangeLog: release 0.8.23
+
+	* system-config-services.spec.in: fix release
+
+	* ChangeLog: release 0.8.23
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, intltool.patch, po/Makefile.in.in, system-config-services.spec.in:
+	pick up new translations
+
+2005-05-06  nphilipp  <nphilipp@redhat.com>
+
+	* po/sk.po, po/sl.po, po/sq.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, configure.in, po/POTFILES.in, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, system-config-services.spec.in:
+	make "make update-po" pick up translatable strings in desktop file (#156801)
+
+	* ChangeLog: release 0.8.23
+
+	* system-config-services.spec.in: fix release
+
+	* ChangeLog: release 0.8.23
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, intltool.patch, po/Makefile.in.in, system-config-services.spec.in:
+	pick up new translations
+
+2005-05-06  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.23
+
+	* system-config-services.spec.in: fix release
+
+	* ChangeLog: release 0.8.23
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, intltool.patch, po/Makefile.in.in, system-config-services.spec.in:
+	pick up new translations
+
+2005-05-06  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec.in: fix release
+
+	* ChangeLog: release 0.8.23
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, intltool.patch, po/Makefile.in.in, system-config-services.spec.in:
+	pick up new translations
+
+2005-05-06  nphilipp  <nphilipp@redhat.com>
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, intltool.patch, po/Makefile.in.in, system-config-services.spec.in:
+	pick up new translations
+
+2005-05-03  aalam  <aalam@redhat.com>
+
+	* po/pa.po: update by alam
+
+2005-04-28  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec.in: silence %post
+
+2005-04-27  runab  <runab@redhat.com>
+
+	* po/bn_IN.po: Updated Bengali INDIA (bn_IN) translation:27/04
+
+2005-04-25  aalam  <aalam@redhat.com>
+
+	* po/pa.po: update by amanpreetalam@yahoo.com
+
+2005-04-05  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: Automerge by snowlet
+
+2005-04-04  marcel  <marcel@redhat.com>
+
+	* po/sk.po: Updated Slovak translation.
+
+2005-04-01  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.22
+
+	* system-config-services.spec.in:
+	update the GTK+ theme icon cache on (un)install (Christopher Aillon)
+
+	* configure.in, po/system-config-services.pot, src/checklist.py, src/serviceconf.py, system-config-services.spec.in:
+	fix deprecation warnings (#153052) with patch by Colin Charles
+
+2005-04-01  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec.in:
+	update the GTK+ theme icon cache on (un)install (Christopher Aillon)
+
+	* configure.in, po/system-config-services.pot, src/checklist.py, src/serviceconf.py, system-config-services.spec.in:
+	fix deprecation warnings (#153052) with patch by Colin Charles
+
+2005-03-31  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: *** empty log message ***
+
+2005-03-30  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: Script 'automerge' run by Chester Cheng.
+
+2005-03-29  morais  <morais@redhat.com>
+
+	* po/pt.po: update
+
+2005-03-28  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: miscellaneous
+
+2005-03-25  raven  <raven@redhat.com>
+
+	* po/pl.po: Small fixes
+
+2005-03-24  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog, po/system-config-services.pot: release 0.8.21
+
+	* configure.in, src/checklist.py, src/serviceconf.glade, src/serviceconf.py, system-config-services.spec.in:
+	connect toggled signals of service/runlevel checkboxes to enable saving again (#151982)
+	consolidate on_optRL*_toggled
+	connect delete_event of mainWindow to ask whether things should be saved
+	before quitting
+	tab -> space indentation to avoid ambiguity
+	change some typos
+
+2005-03-24  nphilipp  <nphilipp@redhat.com>
+
+	* configure.in, src/checklist.py, src/serviceconf.glade, src/serviceconf.py, system-config-services.spec.in:
+	connect toggled signals of service/runlevel checkboxes to enable saving again (#151982)
+	consolidate on_optRL*_toggled
+	connect delete_event of mainWindow to ask whether things should be saved
+	before quitting
+	tab -> space indentation to avoid ambiguity
+	change some typos
+
+2005-03-21  runab  <runab@redhat.com>
+
+	* po/bn_IN.po: Added file for locale Bengali (IN):21/03
+
+2005-03-19  raven  <raven@redhat.com>
+
+	* po/pl.po: Small fixes
+
+2005-03-18  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec.in: mention version in changelog
+
+	* ChangeLog, po/system-config-services.pot: release 0.8.20
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, po/Makefile.in.in:
+	bump version
+
+	* src/checklist.py, src/serviceconf.py, system-config-services.spec.in:
+	dynamic, translated column titles for runlevel columns
+
+	* src/serviceconf.glade, src/serviceconf.py, system-config-services.spec.in:
+	build toolbar in glade to avoid DeprecationWarnings (#134978)
+
+	* src/servicemethods.py, system-config-services.spec.in:
+	don't read from /dev/null when restarting xinetd/services to prevent hangs
+
+2005-03-18  nphilipp  <nphilipp@redhat.com>
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, po/Makefile.in.in:
+	bump version
+
+	* src/checklist.py, src/serviceconf.py, system-config-services.spec.in:
+	dynamic, translated column titles for runlevel columns
+
+	* src/serviceconf.glade, src/serviceconf.py, system-config-services.spec.in:
+	build toolbar in glade to avoid DeprecationWarnings (#134978)
+
+	* src/servicemethods.py, system-config-services.spec.in:
+	don't read from /dev/null when restarting xinetd/services to prevent hangs
+
+2005-03-10  raven  <raven@redhat.com>
+
+	* po/pl.po: Small fixes
+
+2005-03-05  raven  <raven@redhat.com>
+
+	* po/pl.po: Poprawione literowki
+
+2005-03-03  h  <h@redhat.com>
+
+	* po/zh_TW.po: By hil
+
+2005-02-25  sarahs  <sarahs@redhat.com>
+
+	* po/zh_CN.po: kudzu/zh_CN.po
+
+2005-02-24  tom  <tom@redhat.com>
+
+	* po/pl.po: CVS_SILENT
+
+2005-02-21  ccheng  <ccheng@redhat.com>
+
+	* po/zh_TW.po: *** empty log message ***
+
+2005-02-20  sarahs  <sarahs@redhat.com>
+
+	* po/zh_CN.po: merged with pot file
+
+2005-02-18  marcel  <marcel@redhat.com>
+
+	* po/sk.po: Updated Slovak translation.
+
+2005-02-18  morais  <morais@redhat.com>
+
+	* po/pt.po: update
+
+2005-02-17  dwalsh  <dwalsh@redhat.com>
+
+	* ChangeLog, aclocal.m4, intltool-extract.in, intltool-merge.in, intltool-update.in, po/Makefile.in.in, po/system-config-services.pot:
+	release 0.8.19
+
+	* configure.in, src/checklist.py, src/serviceconf.glade, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	add Charlie Brej patch
+
+	* po/.cvsignore: eliminate cvs errors
+
+2005-02-17  sarahs  <sarahs@redhat.com>
+
+	* po/bn.po, po/gu.po, po/hi.po, po/ta.po, po/ca.po, po/bg.po, po/ar.po, po/cs.po, po/da.po, po/ru.po, po/es.po, po/pt_BR.po, po/mk.po, po/de.po, po/ko.po, po/ja.po, po/fr.po, po/zh_TW.po, po/pt.po:
+	merged with pot file
+
+2005-02-16  sarahs  <sarahs@redhat.com>
+
+	* po/it.po: merged with pot file
+
+2005-02-17  dwalsh  <dwalsh@redhat.com>
+
+	* configure.in, src/checklist.py, src/serviceconf.glade, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	add Charlie Brej patch
+
+	* po/.cvsignore: eliminate cvs errors
+
+2005-02-17  sarahs  <sarahs@redhat.com>
+
+	* po/bn.po, po/gu.po, po/hi.po, po/ta.po, po/ca.po, po/bg.po, po/ar.po, po/cs.po, po/da.po, po/ru.po, po/es.po, po/pt_BR.po, po/mk.po, po/de.po, po/ko.po, po/ja.po, po/fr.po, po/zh_TW.po, po/pt.po:
+	merged with pot file
+
+2005-02-16  sarahs  <sarahs@redhat.com>
+
+	* po/it.po, po/pa.po, po/zh_CN.po: merged with pot file
+
+2005-01-28  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog, configure.in, po/system-config-services.pot, system-config-services.spec.in:
+	release 0.8.18
+
+	* src/serviceconf.py, system-config-services.spec.in:
+	fix off-by-one which prevented saving changes to the last service in the list (#139456)
+
+2005-01-28  nphilipp  <nphilipp@redhat.com>
+
+	* src/serviceconf.py, system-config-services.spec.in:
+	fix off-by-one which prevented saving changes to the last service in the list (#139456)
+
+2005-01-11  erwien  <erwien@redhat.com>
+
+	* po/id.po: update, for consistency translation !
+
+2005-01-04  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog, po/system-config-services.pot: release 0.8.17
+
+	* configure.in, src/servicemethods.py, system-config-services.spec.in:
+	throw away stderr to not be confused by error messages (#142983)
+
+2005-01-04  nphilipp  <nphilipp@redhat.com>
+
+	* configure.in, src/servicemethods.py, system-config-services.spec.in:
+	throw away stderr to not be confused by error messages (#142983)
+
+2004-12-16  erwien  <erwien@redhat.com>
+
+	* po/id.po: *** empty log message ***
+
+2004-12-08  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.16
+
+	* configure.in, system-config-services.spec.in:
+	don't hardcode python 2.3 (#142246)
+	remove some cruft from configure.in
+
+2004-12-08  nphilipp  <nphilipp@redhat.com>
+
+	* configure.in, system-config-services.spec.in:
+	don't hardcode python 2.3 (#142246)
+	remove some cruft from configure.in
+
+2004-12-07  sarahs  <sarahs@redhat.com>
+
+	* po/en_GB.po, po/zh_CN.po: merged with pot file
+
+2004-10-28  aman  <aman@redhat.com>
+
+	* po/pa.po: FPR
+
+2004-10-25  njaya  <njaya@redhat.com>
+
+	* po/ta.po: review 1
+
+2004-10-25  sarahs  <sarahs@redhat.com>
+
+	* po/en_GB.po: added new locale as requested
+
+2004-10-20  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.15
+
+	* system-config-services.spec.in: include all languages (#136460)
+
+	* configure.in: include all languages in ALL_LINGUAS
+
+	* po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po:
+	make update-po
+
+2004-10-20  nphilipp  <nphilipp@redhat.com>
+
+	* system-config-services.spec.in: include all languages (#136460)
+
+	* configure.in: include all languages in ALL_LINGUAS
+
+	* po/pt_BR.po, po/ro.po, po/ru.po, po/si.po, po/sk.po, po/sl.po, po/sq.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/ur.po, po/vi.po, po/zh_CN.po, po/zh_TW.po, po/gu.po, po/he.po, po/hi.po, po/hr.po, po/hu.po, po/id.po, po/is.po, po/it.po, po/ja.po, po/ka.po, po/ko.po, po/ku.po, po/lo.po, po/lt.po, po/mk.po, po/mr.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/ar.po, po/bg.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po:
+	make update-po
+
+2004-10-13  nphilipp  <nphilipp@redhat.com>
+
+	* src/servicemethods.py: remove stray debugging statement
+
+2004-10-12  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.14
+
+	* configure.in, system-config-services.spec.in: bump version
+
+	* src/Makefile.am: you really need to install this manually, doh
+
+	* ChangeLog: release 0.8.13
+
+	* intltool-extract.in, intltool-merge.in, intltool-update.in, aclocal.m4:
+	autofoo/i18n stuff updated
+
+	* configure.in: bump version
+
+	* src/Makefile.am, system-config-services.spec.in:
+	actually install nonblockingreader module (#135445)
+
+2004-10-12  nphilipp  <nphilipp@redhat.com>
+
+	* configure.in, system-config-services.spec.in: bump version
+
+	* src/Makefile.am: you really need to install this manually, doh
+
+	* ChangeLog: release 0.8.13
+
+	* intltool-extract.in, intltool-merge.in, intltool-update.in, aclocal.m4:
+	autofoo/i18n stuff updated
+
+	* configure.in: bump version
+
+	* src/Makefile.am, system-config-services.spec.in:
+	actually install nonblockingreader module (#135445)
+
+2004-10-12  nphilipp  <nphilipp@redhat.com>
+
+	* intltool-extract.in, intltool-merge.in, intltool-update.in, aclocal.m4:
+	autofoo/i18n stuff updated
+
+	* configure.in: bump version
+
+	* src/Makefile.am, system-config-services.spec.in:
+	actually install nonblockingreader module (#135445)
+
+2004-10-11  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog, po/system-config-services.pot: release 0.8.12
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in:
+	up version
+
+	* Makefile.am: don't force tagging
+
+	* src/nonblockingreader.py, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	really update UI when reading from pipes (#120579, #135215)
+
+2004-10-11  nphilipp  <nphilipp@redhat.com>
+
+	* aclocal.m4, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in:
+	up version
+
+	* Makefile.am: don't force tagging
+
+	* src/nonblockingreader.py, src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	really update UI when reading from pipes (#120579, #135215)
+
+2004-10-10  nphilipp  <nphilipp@redhat.com>
+
+	* src/serviceconf.py: fix typo (#135215, Eamonn Sullivan)
+
+2004-10-08  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog, po/system-config-services.pot: release 0.8.11
+
+	* aclocal.m4, intltool-extract.in, intltool-merge.in, intltool-update.in, mkinstalldirs:
+	pick up autofoo related script updates
+
+	* configure.in: bump version
+
+	* src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	fix gtk.main*() related DeprecationWarnings (#134978)
+
+2004-10-08  nphilipp  <nphilipp@redhat.com>
+
+	* aclocal.m4, intltool-extract.in, intltool-merge.in, intltool-update.in, mkinstalldirs:
+	pick up autofoo related script updates
+
+	* configure.in: bump version
+
+	* src/serviceconf.py, src/servicemethods.py, system-config-services.spec.in:
+	fix gtk.main*() related DeprecationWarnings (#134978)
+
+2004-10-01  dwalsh  <dwalsh@redhat.com>
+
+	* system-config-services.spec.in: fix spec
+
+	* ChangeLog, aclocal.m4: release 0.8.10
+
+	* system-config-services.spec.in, configure.in: update translations
+
+2004-10-01  dwalsh  <dwalsh@redhat.com>
+
+	* system-config-services.spec.in, configure.in: update translations
+
+2004-09-29  aman  <aman@redhat.com>
+
+	* po/pa.po: check
+
+2004-09-29  runab  <runab@redhat.com>
+
+	* po/bn.po: Updated Bengali (bn) Translation
+
+2004-09-28  runab  <runab@redhat.com>
+
+	* po/bn.po: Updated Bengali(bn) Translation
+
+2004-09-28  sarahs  <sarahs@redhat.com>
+
+	* po/fa.po: fixed formatting error
+
+2004-09-27  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.9
+
+	* autogen.sh: install files, not links
+
+	* ChangeLog: release 0.8.9
+
+	* po/vi.po, po/zh_CN.po, po/zh_TW.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ru.po, po/sk.po, po/sl.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/hi.po, po/hr.po, po/hu.po, po/is.po, po/it.po, po/ja.po, po/ko.po, po/ms.po, po/nl.po, po/no.po, po/pa.po, configure.in, po/Makefile.in.in, po/ar.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, system-config-services.spec.in:
+	enable Arabic translation (#133722)
+
+	* intltool.patch: fix rejects
+
+2004-09-27  nphilipp  <nphilipp@redhat.com>
+
+	* autogen.sh: install files, not links
+
+	* ChangeLog: release 0.8.9
+
+	* po/vi.po, po/zh_CN.po, po/zh_TW.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ru.po, po/sk.po, po/sl.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/hi.po, po/hr.po, po/hu.po, po/is.po, po/it.po, po/ja.po, po/ko.po, po/ms.po, po/nl.po, po/no.po, po/pa.po, configure.in, po/Makefile.in.in, po/ar.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, system-config-services.spec.in:
+	enable Arabic translation (#133722)
+
+	* intltool.patch: fix rejects
+
+2004-09-27  nphilipp  <nphilipp@redhat.com>
+
+	* po/vi.po, po/zh_CN.po, po/zh_TW.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ru.po, po/sk.po, po/sl.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/hi.po, po/hr.po, po/hu.po, po/is.po, po/it.po, po/ja.po, po/ko.po, po/ms.po, po/nl.po, po/no.po, po/pa.po, configure.in, po/Makefile.in.in, po/ar.po, po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, system-config-services.spec.in:
+	enable Arabic translation (#133722)
+
+	* intltool.patch: fix rejects
+
+2004-09-23  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog, Makefile.am:
+	fix up make changelog and screwed up ChangeLog
+
+	* ChangeLog: release 0.8.8.1
+
+	* ChangeLog, Makefile.am: fix generating ChangeLog
+
+	* ChangeLog: release 0.8.8.1
+
+	* Makefile.am, aclocal.m4, config.status, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, po/system-config-services.pot, system-config-services.spec.in:
+	get in updated translations (#133137)
+	appease make distcheck
+	pick up updated autofoo scripts
+	remove config.status
+
+2004-09-23  nphilipp  <nphilipp@redhat.com>
+
+	* ChangeLog: release 0.8.8.1
+
+	* ChangeLog, Makefile.am: fix generating ChangeLog
+
+	* Makefile.am, aclocal.m4, config.status, configure.in, intltool-extract.in, intltool-merge.in, intltool-update.in, po/system-config-services.pot, system-config-services.spec.in:
+	get in updated translations (#133137)
+	appease make distcheck
+	pick up updated autofoo scripts
+	remove config.status
+
+2004-09-15  sarahs  <sarahs@redhat.com>
+
+	* po/lo.po: initial file
+
+2004-09-13  njaya  <njaya@redhat.com>
+
+	* po/ta.po: review -1 completed
+
+2004-09-03  ylouze  <ylouze@redhat.com>
+
+	* po/es.po: Modifique Arrancar por iniciar
+
+2004-09-02  nikolay  <nikolay@redhat.com>
+
+	* po/bg.po:
+	 	bg.po
+
+2004-09-01  rranjan  <rranjan@redhat.com>
+
+	* po/hi.po: prfread
+
+2004-08-26  ylouze  <ylouze@redhat.com>
+
+	* po/es.po: Changed wording Comenzar for Arrancar, Parar for Detener
+
+2004-08-23  aman  <aman@redhat.com>
+
+	* po/pa.po: final
+
+2004-08-13  ankitp  <ankitp@redhat.com>
+
+	* po/gu.po: ankit@redhat.com 13/08/2004
+
+2004-08-12  sarahs  <sarahs@redhat.com>
+
+	* po/ka.po: new locale translation file added
+
+2004-08-07  tomislav  <tomislav@redhat.com>
+
+	* po/mk.po: *** empty log message ***
+
+2004-07-27  olszewsk  <olszewsk@redhat.com>
+
+	* po/pl.po: Finished by A. Olszewski. Not tested on live system.
+
+2004-07-22  jamil  <jamil@redhat.com>
+
+	* po/bn.po: Updated on July 22, 2004
+
+2004-07-22  aman  <aman@redhat.com>
+
+	* po/pa.po: bug remove
+
+2004-07-21  nikolay  <nikolay@redhat.com>
+
+	* po/bg.po:
+	 ----------------------------------------------------------------------
+	 Enter Log.  Lines beginning with `CVS:' are removed automatically
+
+	 Committing in .
+
+	 Added Files:
+	 	bg.po
+	 ----------------------------------------------------------------------
+
+2004-07-20  tomislav  <tomislav@redhat.com>
+
+	* po/mk.po: zavrseno
+
+2004-07-12  sarahs  <sarahs@redhat.com>
+
+	* po/gu.po: initial file
+
+2004-06-30  sarahs  <sarahs@redhat.com>
+
+	* po/he.po: initial file
+
+2004-06-25  sarahs  <sarahs@redhat.com>
+
+	* po/mk.po: initial po files
+
+2004-06-24  dheche  <dheche@redhat.com>
+
+	* po/id.po: initial version
+
+2004-06-22  razvanv  <razvanv@redhat.com>
+
+	* po/ro.po: updated by Razvan Vilt 20040622152553
+
+2004-06-16  bfox  <bfox@redhat.com>
+
+	* system-config-services.spec.in: update changelog
+
+	* src/serviceconf.py:
+	use the wait cursor when starting and stopping services (bug #122425)
+
+	* src/serviceconf.py: center popup dialog
+
+2004-06-02  sarahs  <sarahs@redhat.com>
+
+	* po/mr.po, po/ur.po, po/ku.po: add new locales
+
+2004-05-31  sarahs  <sarahs@redhat.com>
+
+	* po/si.po: adding new locale
+
+2004-05-21  mr  <mr@redhat.com>
+
+	* po/lt.po: *** empty log message ***
+
+2004-05-02  rahal  <rahal@redhat.com>
+
+	* po/ar.po: Arabeyes.org's Arabic translation of the past week
+	Adding new po files
+
+2004-04-13  bfox  <bfox@redhat.com>
+
+	* Makefile.am, system-config-services.spec.in: fix path
+
+2004-04-12  bfox  <bfox@redhat.com>
+
+	* system-config-services.spec.in: fix path
+
+	* Makefile.am, system-config-services.desktop.in, system-config-services.spec.in:
+	fix icon path
+
+2004-04-11  andrmart  <andrmart@redhat.com>
+
+	* po/ru.po: Little updates in translation.
+
+2004-04-09  noriko  <noriko@redhat.com>
+
+	* po/ja.po: updates 1 untranslated done
+
+2004-04-08  stephane  <stephane@redhat.com>
+
+	* po/fr.po: - Accents lost !
+	- FIX space
+
+	I will search the wrong committer :-(
+
+2004-04-08  jamil  <jamil@redhat.com>
+
+	* po/bn.po: Updated on 8th April, 2004
+
+2004-04-08  joseppc  <joseppc@redhat.com>
+
+	* po/ca.po: Cleared fuzzy, and translated missing strings
+
+2004-04-08  barzilay  <barzilay@redhat.com>
+
+	* po/pt_BR.po: pedro macedo
+
+2004-04-07  xyzallan  <xyzallan@redhat.com>
+
+	* po/et.po: Fixed fuzzies and translated new
+
+2004-04-06  aman  <aman@redhat.com>
+
+	* po/pa.po: pa.po translated 0704 amanlinux@netcape.net
+
+2004-04-06  bfox  <bfox@redhat.com>
+
+	* po/bn.po, po/bs.po, po/ca.po, po/cs.po, po/cy.po, po/da.po, po/de.po, po/el.po, po/es.po, po/et.po, po/fa.po, po/fi.po, po/fr.po, po/hi.po, po/hr.po, po/hu.po, po/is.po, po/it.po, po/ja.po, po/ko.po, po/ms.po, po/nb.po, po/nl.po, po/no.po, po/pa.po, po/pl.po, po/pt.po, po/pt_BR.po, po/ru.po, po/sk.po, po/sl.po, po/sv.po, po/system-config-services.pot, po/ta.po, po/tr.po, po/uk.po, po/vi.po, po/zh_CN.po, po/zh_TW.po:
+	update strings
+
+	* system-config-services.spec.in: update changelog
+
+	* src/servicemethods.py: remove extra strip
+
+	* src/serviceconf.py: fix help path
+
+	* src/serviceconf.py: wire up help button (bug #119623)
+
+	* system-config-services.spec.in, Makefile.am, config.status, aclocal.m4:
+	update
+
+	* po/system-config-services.pot: update strings
+
+	* system-config-services.spec.in: docs
+
+2004-04-06  maxik  <maxik@redhat.com>
+
+	* po/uk.po: 2004-04-06  Maxim Dziumanenko <mvd@mylinux.com.ua>
+
+		* Updated Ukrainian translation
+
+2004-04-05  bfox  <bfox@redhat.com>
+
+	* Makefile.am: create docs dir
+
+	* system-config-services.spec.in, Makefile.am: try to get it to build
+
+	* Makefile.am: create html dir
+
+	* Makefile.am: create docs dir
+
+	* Makefile.am: no makefile in docs/
+
+	* Makefile.am: add docs dir
+
+	* aclocal.m4, config.status: use automake 1.8
+
+	* system-config-services.spec.in: update changelog
+
+	* src/serviceconf.py: use os.access instead of try
+
+2004-04-05  alan  <alan@redhat.com>
+
+	* po/cy.po: Tidy fuzzies
+
+2004-04-01  kmaraas  <kmaraas@redhat.com>
+
+	* po/nb.po, po/no.po: Update
+
+2004-04-01  sarahs  <sarahs@redhat.com>
+
+	* po/sq.po: initial po file
+
+2004-03-31  romanm  <romanm@redhat.com>
+
+	* po/sl.po: updated
+
+2004-03-31  bfox  <bfox@redhat.com>
+
+	* system-config-services.spec.in: fix typo (bug #119559)
+
+2004-03-25  rhkeld  <rhkeld@redhat.com>
+
+	* po/da.po: Updates
+	anaconda/anaconda-po/da.po apacheconf/po/da.po
+	redhat-config-cluster/po/da.po redhat-config-network/po/da.po
+	redhat-config-samba/po/da.po redhat-config-services/po/da.po
+	specspo/dist/da.po system-logviewer/po/da.po
+	system-switch-mail/po/da.po
+
+2004-03-25  dwalsh  <dwalsh@redhat.com>
+
+	* ChangeLog, aclocal.m4, config.status, po/system-config-services.pot:
+	release 0.8.8
+
+	* configure.in, po/sl.po: cleanup rename and add all languages
+
+2004-03-24  mkim  <mkim@redhat.com>
+
+	* po/ko.po: fedora translation update
+
+2004-03-25  dwalsh  <dwalsh@redhat.com>
+
+	* configure.in, po/sl.po: cleanup rename and add all languages
+
+2004-03-24  mkim  <mkim@redhat.com>
+
+	* po/ko.po: fedora translation update
+
+2004-03-24  bfox  <bfox@redhat.com>
+
+	* system-config-services.spec.in: update changelog
+
+	* src/serviceconf.glade: increase default size
+
+2004-03-23  marcel  <marcel@redhat.com>
+
+	* po/sk.po: Added Slovak translation.
+
+2004-03-23  ylouze  <ylouze@redhat.com>
+
+	* po/es.po: Updated translation
+
+2004-03-23  ggomes  <ggomes@redhat.com>
+
+	* po/pt_BR.po: terminado
+
+2004-03-22  bfox  <bfox@redhat.com>
+
+	* po/bn.po, po/cs.po, po/cy.po, po/de.po, po/el.po, po/fa.po, po/fi.po, po/hi.po, po/hu.po, po/ms.po, po/nl.po, po/pt.po, po/sl.po, po/ta.po, po/uk.po, po/vi.po, po/zh_CN.po, po/zh_TW.po:
+	rename
+
+2004-03-22  aman  <aman@redhat.com>
+
+	* po/pa.po: pa.po translated 2203 amanlinux@netcape.net
+
+2004-03-22  fvalen  <fvalen@redhat.com>
+
+	* po/it.po: updated
+
+2004-03-21  mayoral  <mayoral@redhat.com>
+
+	* po/es.po: Updated on Mar 21, 2004
+
+2004-03-20  frolix68  <frolix68@redhat.com>
+
+	* po/el.po: Updated Greek translation
+
+2004-03-19  bfox  <bfox@redhat.com>
+
+	* ChangeLog, config.status, po/system-config-services.pot:
+	release 0.8.8
+
+	* src/serviceconf.glade, src/serviceconf.py, system-config-services.spec.in:
+	make app exit properly on window close
+
+2004-03-19  andmuell  <andmuell@redhat.com>
+
+	* po/de.po: Updated missing entries, more useful keyboard shortcuts.
+
+	*******ATTENTION DEVELOPERS*********
+
+	in entry 14 (copyright message), there are some wrong e-mail addresses!!
+
+	************************************
+
+2004-03-19  obietzer  <obietzer@redhat.com>
+
+	* po/fr.po: Traduction finalisée et relecture faite.
+	Que fait-on des raccourcis clavier (montrés par _ ) ?
+

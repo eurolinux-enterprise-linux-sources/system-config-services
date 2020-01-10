@@ -1,0 +1,317 @@
+# translation of system-config-services.master.po to Bengali INDIA
+# Bangla Translation of system-config-services
+# Copyright (C) 2003 Red Hat, Inc.
+# This file is distributed under the same license as the system-config-services package.
+#
+# Indranil Das Gupta <indradg@cal.vsnl.net.in>, 2003.
+# Runa Bhattacharjee <runab@redhat.com>, 2005, 2006, 2008, 2009, 2010.
+# Runa Bhattacharjee <runabh@gmail.com>, 2007.
+# Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-services.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-24 12:19+0100\n"
+"PO-Revision-Date: 2010-04-17 13:31+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"\n"
+
+#: src/gui.py:125
+msgid "Name"
+msgstr "নাম"
+
+#: src/gui.py:128
+msgid "Remarks"
+msgstr "মন্তব্য"
+
+#: src/gui.py:196 src/gui.py:213
+msgid "This service is being refreshed right now."
+msgstr "পরিসেবার তথ্য নতুন করে প্রদর্শন করা হচ্ছে।"
+
+#: src/gui.py:197
+msgid "Getting information about this service failed."
+msgstr "চিহ্নিত পরিসেবা সম্পর্কে তথ্য প্রাপ্ত করতে ব্যর্থ।"
+
+#: src/gui.py:198
+msgid "This service is enabled."
+msgstr "এই পরিসেবা বর্তমানে সক্রিয়।"
+
+#: src/gui.py:199
+msgid "This service is disabled."
+msgstr "এই পরিসেবা বর্তমানে নিষ্ক্রিয়।"
+
+#: src/gui.py:201
+#, python-format
+msgid "This service is enabled in runlevels: %(runlevels)s"
+msgstr "এই পরিসেবা চিহ্নিত রান-লেভেলে বর্তমানে চলছে:  %(runlevels)s"
+
+#: src/gui.py:214
+msgid "The status of this service is unknown."
+msgstr "এই পরিসেবার অবস্থা বর্তমানে অজানা।"
+
+#: src/gui.py:215
+msgid "This service is stopped."
+msgstr "এই পরিসেবা বন্ধ করা হয়েছে।"
+
+#: src/gui.py:216
+msgid "This service is running."
+msgstr "এই পরিসেবা বর্তমানে চলছে।"
+
+#: src/gui.py:217
+msgid "This service is dead."
+msgstr "পরিসেবাটি সম্পূর্ণরূপে বন্ধ।"
+
+#: src/gui.py:298
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service is started once, usually when the system "
+"is booted, runs in the background and wakes up when needed."
+msgstr ""
+"<b>%(servicename)s</b> পরিসেবাটি সাধারণত সিস্টেম বুট করার সময় একবার আরম্ভ করা "
+"হয় ও নেপথ্যে সঞ্চালিত হয়। প্রয়োজন অনুযায়ী পরিসেবাটি সক্রিয় করা হয়।"
+
+#: src/gui.py:317
+msgid "This service is updated currently."
+msgstr "এই পরিসেবা বর্তমানে আপডেট করা হয়েছে।"
+
+#: src/gui.py:344
+#, python-format
+msgid ""
+"The <b>%(servicename)s</b> service will be started on demand by the xinetd "
+"service and ends when it has nothing more to do."
+msgstr ""
+"প্রয়োজন অনুযায়ী xinetd পরিসেবা দ্বারা <b>%(servicename)s</b> পরিসেবা আরম্ভ করা "
+"হবে ও কর্ম সমাপ্ত হলে পরিসেবাটি বন্ধ করা হবে।"
+
+#: src/gui.py:356
+msgid ""
+"This service is enabled, but the <b>xinetd</b> package is not installed. "
+"This service does not work without it."
+msgstr ""
+"এই পরিসেবা সক্রিয় হলেও, <b>xinetd</b> প্যাকেজ ইনস্টল করা হয়নি। xinetd বিনা এই "
+"পরিসেবা সঞ্চালন করা সম্ভব নয়।"
+
+#: src/gui.py:365
+msgid ""
+"This service is enabled, but the <b>xinetd</b> service is not running. This "
+"service does not work without it."
+msgstr ""
+"এই পরিসেবা সক্রিয় হলেও, <b>xinetd</b> পরিসেবা চলছে না। xinetd বিনা এই পরিসেবা "
+"সঞ্চালন করা সম্ভব নয়।"
+
+#: src/gui.py:782 src/system-config-services.glade.h:6
+#, no-c-format, python-format
+msgid "Enable the <b>%(service)s</b> service in these runlevels:"
+msgstr "চিহ্নিত রান-লেভেলে <b>%(service)s</b> পরিসেবা সক্রিয় করা হবে:"
+
+#: src/gui.py:920
+msgid ""
+"The help viewer could not be found. To be able to view help, the 'yelp' "
+"package needs to be installed."
+msgstr ""
+"সহায়িকা প্রদর্শন ব্যবস্থা পাওয়া যায়নি। সহায়ক নথিপত্র প্রদর্শনের জন্য 'yelp' নামক "
+"প্যাকেজটি ইনস্টল থাকা আবশ্যক।"
+
+#: src/system-config-services.glade.h:1
+msgid "Copyright © 2002-2009 Red Hat, Inc. and contributors"
+msgstr "স্বত্বাধিকার © ২০০২-২০০৯ Red Hat, Inc. ও অন্যান্য অংশগ্রহণকারীদের"
+
+#: src/system-config-services.glade.h:2
+msgid "Customize Runlevels"
+msgstr "রান-লেভেল স্বনির্ধারণ"
+
+#: src/system-config-services.glade.h:3
+msgid "Customize the runlevels in which a service is enabled."
+msgstr "পরিসেবা যে রান-লেভেলগুলিতে সক্রিয় করা হবে তা নির্ধারণ করুন।"
+
+#: src/system-config-services.glade.h:4
+msgid "Description"
+msgstr "বিবরণ"
+
+#: src/system-config-services.glade.h:7
+msgid "No service selected."
+msgstr "কোনো পরিসেবা নির্বাচন করা হয়নি।"
+
+#: src/system-config-services.glade.h:8
+msgid "Runlevel 2"
+msgstr "Runlevel 2"
+
+#: src/system-config-services.glade.h:9
+msgid "Runlevel 3"
+msgstr "Runlevel 3"
+
+#: src/system-config-services.glade.h:10
+msgid "Runlevel 4"
+msgstr "Runlevel 4"
+
+#: src/system-config-services.glade.h:11
+msgid "Runlevel 5"
+msgstr "Runlevel 5"
+
+#: src/system-config-services.glade.h:12
+msgid "Runlevel _2"
+msgstr "Runlevel _2"
+
+#: src/system-config-services.glade.h:13
+msgid "Runlevel _3"
+msgstr "Runlevel _3"
+
+#: src/system-config-services.glade.h:14
+msgid "Runlevel _4"
+msgstr "Runlevel _4"
+
+#: src/system-config-services.glade.h:15
+msgid "Runlevel _5"
+msgstr "Runlevel _5"
+
+#: src/system-config-services.glade.h:16
+msgid "S_top"
+msgstr "বন্ধ করুন (_t)"
+
+#: src/system-config-services.glade.h:17
+msgid "Ser_vice"
+msgstr "পরিসেবা (_v)"
+
+#: src/system-config-services.glade.h:18
+msgid "Service Configuration"
+msgstr "পরিসেবা কনফিগারেশন"
+
+#: src/system-config-services.glade.h:19
+msgid "Service Information"
+msgstr "পরিসেবা সংক্রান্ত তথ্য"
+
+#: src/system-config-services.glade.h:21
+#, no-c-format
+msgid "Status of service %s:"
+msgstr "%s পরিসেবার অবস্থা:"
+
+#: src/system-config-services.glade.h:22
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA 02111-1307  USA"
+msgstr ""
+"এটি একটি মুক্ত সফ্টওয়্যার; Free Software Foundation দ্বারা প্রকাশিত GNU General "
+"Public License-র শর্তানুযায়ী এটি বিতরণ ও পরিবর্তন করা যাবে; লাইসেন্সের সংস্করণ ২ "
+"অথবা (আপনার সুবিধানুযায়ী) ঊর্ধ্বতন কোনো সংস্করণের অধীন।\n"
+"\n"
+"এই প্রোগ্রাম বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু "
+"এটির জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো সুনির্দিষ্ট কর্ম "
+"সাধনের \n"
+"জন্য অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে GNU General Public License পড়ুন।\n"
+"\n"
+"এর সাথে GNU General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া উচিত; না থাকলে "
+"নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software Foundation, Inc., 675 Mass "
+"Ave, Cambridge, MA 02139, USA।"
+
+#: src/system-config-services.glade.h:28
+msgid ""
+"This service is started once, usually when the system is booted, runs in the "
+"background and wakes up when needed."
+msgstr ""
+"এই পরিসেবাটি সাধারণত সিস্টেম বুট করার সময় একবার আরম্ভ করা হয় ও নেপথ্যে সঞ্চালিত "
+"হয়। প্রয়োজন অনুযায়ী পরিসেবাটি সক্রিয় করা হয়।"
+
+#: src/system-config-services.glade.h:29
+msgid ""
+"This service will be started on demand by the xinetd service and ends when "
+"it has nothing more to do."
+msgstr ""
+"প্রয়োজন অনুযায়ী xinetd পরিসেবা দ্বারা এই পরিসেবা আরম্ভ করা হবে ও কর্ম সমাপ্ত হলে "
+"পরিসেবাটি বন্ধ করা হবে।"
+
+#: src/system-config-services.glade.h:30
+msgid "_About"
+msgstr "পরিচিতি (_A)"
+
+#: src/system-config-services.glade.h:31
+msgid "_Contents"
+msgstr "সূচিপত্র (_C)"
+
+#: src/system-config-services.glade.h:32
+msgid "_Customize"
+msgstr "স্বনির্ধারণ (_C)"
+
+#: src/system-config-services.glade.h:33
+msgid "_Disable"
+msgstr "নিষ্ক্রিয় করুন (_D)"
+
+#: src/system-config-services.glade.h:34
+msgid "_Enable"
+msgstr "সক্রিয় (_E)"
+
+#: src/system-config-services.glade.h:35
+msgid "_Help"
+msgstr "সাহায্য (_H)"
+
+#: src/system-config-services.glade.h:36
+msgid "_Program"
+msgstr "প্রোগ্রাম (_P)"
+
+#: src/system-config-services.glade.h:37
+msgid "_Restart"
+msgstr "পুনরারম্ভ (_R)"
+
+#: src/system-config-services.glade.h:38
+msgid "_Start"
+msgstr "আরম্ভ করুন (_S)"
+
+#: src/system-config-services.glade.h:39
+msgid "system-config-services"
+msgstr "system-config-services"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: src/system-config-services.glade.h:41
+msgid "translator-credits"
+msgstr "রুণা ভট্টাচার্য (runab at redhat dot com)"
+
+#: system-config-services.desktop.in.h:1
+msgid "Configure which services will be running when the system starts"
+msgstr "সিস্টেম আরম্ভের সময় সক্রিয় পরিসেবাগুলি কনফিগার করুন"
+
+#: system-config-services.desktop.in.h:2
+msgid "Service Management"
+msgstr "পরিসেবা পরিচালনা"
+
+# msgstr "সার্ভিস বন্ধ"--old version
+#: system-config-services.desktop.in.h:3
+msgid "Services"
+msgstr "পরিসেবা"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:1
+#: config/org.fedoraproject.config.services.policy.1.in.h:1
+msgid "Get information about system services"
+msgstr "সিস্টেমের পরিসেবা সম্পর্কে তথ্য প্রাপ্ত করুন"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:2
+#: config/org.fedoraproject.config.services.policy.1.in.h:2
+msgid "Getting information about system services requires authentication"
+msgstr "সিস্টেমের পরিসেবা সংক্রান্ত তথ্য প্রাপ্ত করার জন্য অনুমোদন প্রয়োজন"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:3
+#: config/org.fedoraproject.config.services.policy.1.in.h:3
+msgid "Manage system services"
+msgstr "সিস্টেমের পরিসেবা পরিচালনা করুন"
+
+#: config/org.fedoraproject.config.services.policy.0.in.h:4
+#: config/org.fedoraproject.config.services.policy.1.in.h:4
+msgid "Managing system services requires authentication"
+msgstr "সিস্টেমের পরিসেবা পরিচালনা করার জন্য অনুমোদন প্রয়োজন"
+
